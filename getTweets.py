@@ -1,5 +1,31 @@
 import twitter
 
+
+
+radius = '400mi'
+append_or_write = 'w'
+'''
+geocode = (-26.519735,143.613281)  #Australia
+fileName = 'Australia_tweets.txt'
+'''
+
+'''
+geocode = (52.401372,-3.004761)  #UK
+fileName = 'UK_tweets.txt'
+
+geocode = (52.102288,5.866699)  #Netherlands
+fileName = 'Netherlands_tweets2.txt'
+'''
+geocode = (38.572387,-102.499695)  #USA
+fileName = 'USA_tweets.txt'
+'''
+geocode = (55.959282,-111.48377)  #Canada
+fileName = 'Canada_tweets.txt'
+'''
+
+
+
+
 CONSUMER_KEY = "Hj5X7qrzG4QITijwSpQnwDhx7"
 CONSUMER_SECRET = "jUjediEM5yu3w6lER0GURWyRJvDCrKwJ1F3TwsRLBlFx3DElGW"
 ACCESS_KEY = "3064111864-ivc7ofpYWY1C4id2tsunSE4jLglqCAZ7pqTWlEx"
@@ -8,7 +34,7 @@ api = twitter.Api(consumer_key=CONSUMER_KEY, consumer_secret=CONSUMER_SECRET, ac
 
 ##rerunning this search multiple times in the same process returns the samtweets
 ##to get new tweets, we must restart the program.
-tweets = api.GetSearch(term=None, geocode=(37.781157,-122.398720,'10mi'), count=100, lang='en')
+tweets = api.GetSearch(term=None, geocode=(geocode[0], geocode[1],radius), count=100, lang='en')
 
 valid_users = set()
 ## for now we just go through and assume all users are from whatever country we are searching
@@ -22,9 +48,10 @@ for uid in valid_users:
     all_tweets.extend([i.text for i in utweets])
 
 ##write tweets out to file. this is in append mode so it will append to testTweetFile
-with open('testTweetFile.txt', 'a') as f:
+with open(fileName, append_or_write) as f:
     for i in all_tweets:
         try:
             f.write('%s\n' % i)
         except: #in case of unicode errors or other errors
             continue
+
