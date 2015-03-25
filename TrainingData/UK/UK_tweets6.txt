@@ -1,0 +1,694 @@
+Wind 4.0mph SSW Baro 1011.48mb, Steady Temp -0.8C Rain 0.00in Hum 92% Fine, possible showers http://t.co/OV9gVShwoM
+Wind 3.0mph SSW Baro 1011.31mb, Rising slowly Temp 0.2C Rain 0.00in Hum 92% Showery early, improving http://t.co/OV9gVShwoM
+Wind 0.0mph SSW Baro 1010.98mb, Rising slowly Temp 0.6C Rain 0.09in Hum 91% Showery early, improving http://t.co/OV9gVShwoM
+Wind 0.0mph ENE Baro 1010.64mb, Rising slowly Temp 2.8C Rain 0.08in Hum 88% Becoming fine http://t.co/OV9gVShwoM
+Wind 1.0mph NNW Baro 1009.52mb, Rising slowly Temp 4.3C Rain 0.01in Hum 86% Becoming fine http://t.co/OV9gVShwoM
+Wind 7.0mph NNW Baro 1008.64mb, Rising slowly Temp 6.3C Rain 0.01in Hum 79% Becoming fine http://t.co/OV9gVShwoM
+Wind 4.0mph N Baro 1007.59mb, Rising slowly Temp 7.1C Rain 0.01in Hum 76% Becoming fine http://t.co/OV9gVShwoM
+Wind 6.0mph NNW Baro 1006.64mb, Rising slowly Temp 7.1C Rain 0.01in Hum 78% Becoming fine http://t.co/OV9gVShwoM
+Wind 8.0mph WNW Baro 1005.96mb, Rising slowly Temp 6.7C Rain 0.01in Hum 82% Fairly fine, improving http://t.co/OV9gVShwoM
+Wind 8.0mph WNW Baro 1005.05mb, Rising Temp 5.0C Rain 0.01in Hum 86% Fairly fine, possible showers early http://t.co/OV9gVShwoM
+Wind 3.0mph SSW Baro 1004.10mb, Rising slowly Temp 1.7C Rain 0.01in Hum 92% Showery early, improving http://t.co/OV9gVShwoM
+Wind 3.0mph SSW Baro 1003.22mb, Falling slowly Temp 1.0C Rain 0.01in Hum 92% Unsettled, some precipitation http://t.co/OV9gVShwoM
+Wind 4.0mph SW Baro 1003.39mb, Falling slowly Temp 1.9C Rain 0.01in Hum 90% Precipitation at times, very unsettled http://t.co/OV9gVShwoM
+Wind 7.0mph SW Baro 1004.37mb, Falling slowly Temp 2.1C Rain 0.14in Hum 90% Precipitation at times, very unsettled http://t.co/OV9gVShwoM
+Wind 6.0mph SW Baro 1005.39mb, Falling slowly Temp 3.7C Rain 0.13in Hum 84% Precipitation at times, very unsettled http://t.co/OV9gVShwoM
+Wind 11.0mph W Baro 1005.86mb, Falling slowly Temp 6.4C Rain 0.13in Hum 73% Occasional precipitation, worsening http://t.co/OV9gVShwoM
+Wind 20.0mph W Baro 1006.57mb, Rising slowly Temp 6.1C Rain 0.13in Hum 75% Showery, bright intervals http://t.co/OV9gVShwoM
+Wind 19.0mph WNW Baro 1006.68mb, Rising slowly Temp 6.6C Rain 0.13in Hum 76% Fairly fine, possible showers early http://t.co/OV9gVShwoM
+Wind 18.0mph WNW Baro 1005.96mb, Rising slowly Temp 7.9C Rain 0.13in Hum 76% Fairly fine, possible showers early http://t.co/OV9gVShwoM
+Wind 11.0mph W Baro 1005.69mb, Rising Temp 5.9C Rain 0.12in Hum 84% Fairly fine, possible showers early http://t.co/OV9gVShwoM
+Wind 16.0mph WNW Baro 1004.64mb, Rising Temp 6.1C Rain 0.08in Hum 82% Fairly fine, possible showers early http://t.co/OV9gVShwoM
+Wind 18.0mph WNW Baro 1002.88mb, Rising Temp 6.0C Rain 0.05in Hum 87% Fairly fine, possible showers early http://t.co/OV9gVShwoM
+Wind 13.0mph WNW Baro 1001.60mb, Rising slowly Temp 6.8C Rain 0.03in Hum 91% Occasional precipitation, worsening http://t.co/OV9gVShwoM
+Wind 17.0mph WSW Baro 1000.88mb, Falling Temp 8.2C Rain 0.00in Hum 85% Precipitation at times, very unsettled http://t.co/OV9gVShwoM
+Wind 12.0mph SW Baro 1002.07mb, Falling Temp 8.1C Rain 0.07in Hum 82% Precipitation, very unsettled http://t.co/OV9gVShwoM
+Wind 15.0mph SW Baro 1004.07mb, Falling Temp 8.4C Rain 0.07in Hum 76% Precipitation at times, very unsettled http://t.co/OV9gVShwoM
+Wind 10.0mph SW Baro 1006.34mb, Falling Temp 9.3C Rain 0.07in Hum 73% Occasional precipitation, worsening http://t.co/OV9gVShwoM
+Wind 11.0mph SW Baro 1007.62mb, Falling Temp 10.4C Rain 0.07in Hum 72% Occasional precipitation, worsening http://t.co/OV9gVShwoM
+Wind 8.0mph SW Baro 1009.93mb, Falling quickly Temp 10.4C Rain 0.06in Hum 80% Occasional precipitation, worsening http://t.co/OV9gVShwoM
+Wind 11.0mph WSW Baro 1012.26mb, Falling Temp 10.8C Rain 0.06in Hum 82% Showery, becoming less settled http://t.co/OV9gVShwoM
+Wind 4.0mph WSW Baro 1014.50mb, Falling Temp 9.8C Rain 0.06in Hum 84% Showery, becoming less settled http://t.co/OV9gVShwoM
+Wind 11.0mph W Baro 1016.39mb, Falling Temp 9.3C Rain 0.06in Hum 86% Showery, becoming less settled http://t.co/OV9gVShwoM
+Wind 2.0mph SSW Baro 1017.34mb, Falling Temp 8.6C Rain 0.05in Hum 88% Unsettled, precipitation later http://t.co/OV9gVShwoM
+Wind 3.0mph SSW Baro 1018.32mb, Falling Temp 7.8C Rain 0.05in Hum 90% Unsettled, precipitation later http://t.co/OV9gVShwoM
+Wind 9.0mph SW Baro 1019.44mb, Falling Temp 7.1C Rain 0.04in Hum 90% Fairly fine, showery later http://t.co/OV9gVShwoM
+Wind 4.0mph SW Baro 1021.37mb, Falling Temp 6.2C Rain 0.01in Hum 90% Fairly fine, showery later http://t.co/OV9gVShwoM
+Wind 3.0mph SSW Baro 1022.83mb, Falling Temp 5.9C Rain 0.02in Hum 91% Showery, becoming less settled http://t.co/OV9gVShwoM
+Wind 5.0mph SSW Baro 1024.49mb, Falling Temp 5.9C Rain 0.00in Hum 86% Fairly fine, showery later http://t.co/OV9gVRZV0c
+Wind 2.0mph NNW Baro 1025.61mb, Falling slowly Temp 5.8C Rain 0.00in Hum 80% Fine weather http://t.co/OV9gVShwoM
+Wind 1.0mph NNE Baro 1026.15mb, Falling slowly Temp 7.1C Rain 0.00in Hum 78% Fine weather http://t.co/OV9gVShwoM
+Wind 5.0mph ENE Baro 1027.13mb, Falling Temp 7.6C Rain 0.00in Hum 73% Fine weather http://t.co/OV9gVShwoM
+Wind 8.0mph E Baro 1028.21mb, Falling slowly Temp 7.5C Rain 0.00in Hum 69% Fine weather http://t.co/OV9gVShwoM
+Wind 3.0mph NE Baro 1029.06mb, Falling slowly Temp 6.7C Rain 0.00in Hum 70% Settled fine http://t.co/OV9gVShwoM
+Wind 0.0mph ENE Baro 1029.53mb, Rising slowly Temp 6.2C Rain 0.00in Hum 72% Settled fine http://t.co/OV9gVShwoM
+Wind 4.0mph ENE Baro 1029.53mb, Rising slowly Temp 5.4C Rain 0.00in Hum 78% Settled fine http://t.co/OV9gVShwoM
+Wind 2.0mph ENE Baro 1028.79mb, Rising slowly Temp 4.0C Rain 0.00in Hum 86% Settled fine http://t.co/OV9gVShwoM
+Wind 5.0mph NE Baro 1027.94mb, Rising slowly Temp 6.1C Rain 0.00in Hum 78% Settled fine http://t.co/OV9gVShwoM
+Wind 4.0mph NE Baro 1026.59mb, Rising Temp 6.1C Rain 0.03in Hum 77% Settled fine http://t.co/OV9gVShwoM
+Wind 7.0mph NE Baro 1025.44mb, Rising Temp 6.2C Rain 0.03in Hum 85% Settled fine http://t.co/OV9gVShwoM
+Wind 7.0mph NW Baro 1023.13mb, Rising Temp 6.8C Rain 0.03in Hum 90% Settled fine http://t.co/OV9gVShwoM
+Lens comparison photo coming up!
+Need to get used to the settings before we go to London #amateur
+Going for a wander to the Co-Op to test my new camera lens
+#NowPlaying @flo_tweet @floflowelch - St Jude http://t.co/QPlorQhPQC
+Happy Birthday @heartlandfm! http://t.co/Ep4XBcVkKC
+Been saying this for months but need to try and make me site mobile compatible, might try coding it in Bootstrap
+New @innocent smoothie in at @cooperativefood Aberfeldy, great to have in the meal deal (and I don't like bananas) http://t.co/U4dDYRPwHF
+Everything makes sense when you put PHP, JS, HTML and CSS together.
+Once you've written code in PHP you wonder why you were using JS for complex calculations. #AdvancingWebDevelopment
+#PopTarts are addictive...
+News magazine coming to Highland Perthshire - Daily Record @heartlandfm  http://t.co/RLLxgkOiPZ
+They're called wages cause you have to wait ages!
+Any more announcements to come about the time @Pebble
+Wee 4 hour hour shift at work tonight for a promo change, can't complain!
+Boss just called me a 'legend' #OhYeah
+Nice article here from @WIRED on 'always on' voice recognition http://t.co/XaDZM9Ee8m
+#PayDay on Thursday!
+Getting me through my college assessment @JanetJealousy - Stay With Me! http://t.co/Rq44hRxdP6
+I liked a @YouTube video from @tldtoday http://t.co/qcWXZApY84 New 12-Inch MacBook: 10 Things to Know Before Buying!
+New #75 - #300 lens has arrived! #Cannon #1100D http://t.co/1PZdY4xvMv
+#Apple #iOS #PublicBeta now Live http://t.co/exsSYljt7K
+Awkward; BBC possibly not showing the next three episodes of @BBC_TopGear but what's that on @bbcthree. Oh, it's old episodes of Top Gear...
+I liked a @YouTube video http://t.co/ASEGNUWCPD Jeremy Clarkson on Michael McIntyre Chat Show - 17 March 2014
+I liked a @YouTube video http://t.co/2HwV04xMwh Michael McIntyre on how posh people get drunk. pyjamaed, carparked, and gazeboed
+With over 30 kills in one life #ftw http://t.co/Y8xxyx7ApV http://t.co/umGe9qlMM0
+Is there a better notice in the world than this? #FreeParking! http://t.co/hLsDPSlAFD http://t.co/mtglTSvdYM
+A827 is ruined!
+#Bargain #Cannon #DSLR http://t.co/6XbW7aHNMT
+On my lap #MacLocations
+"Next up I want to talk about..... The Mac"
+Incredible. #ResearchKit #AppleLive
+700 million iPhones with a 99% CSAT on the 6 &amp; 6+
+Golden syrup cake for breakfast sounds like a great plan
+Less than 2 months till exams http://t.co/d4XQI7swiL
+My choice form for next year makes me nauseous
+The raspberry jelly from the coop is life
+Should really get started on this biology past paper for tomorow
+Who needs nat 5s when you have doublechins #winnin
+Great meeting with @narendramodi this afternoon in Delhi! http://t.co/yyByArfSMR
+See if you can guess who/what has the right of way: http://t.co/Rw83S0Eqg7
+Brief stop in Dubai during the 20 hour trip to India. 
+
+Starbucks is on all location lists http://t.co/wBsRwiy185
+"The cascade and what it tells us about Twitter's surprising influence"  http://t.co/JyMO1dF34p via @pkafka
+Well, the SEC championship is over with 18:21 left in the first half. #KentuckyWildcats
+Small early spring honey harvest. It's super dark and tastes almost like caramel. http://t.co/6HALriUeoJ
+I always wonder how many takes these things...take. Still, impressive:   https://t.co/ICWsB0Ficz
+Eggy Bread http://t.co/g4fF6dDnnS
+How I did on Twitter this week: 7 New Followers, 51 Mentions, 1.16K Mention Reach. How'd your week go? via http://t.co/uzPDgpiGD6
+Ricky sbragia's decision for leaving out @Jackharper7 is what's wrong with Scottish football. Should be sacked on the spot
+Ryan mason is in the England? It's gone from garza scholes beckham Gerrard lampard to Ryan fucking mason
+I just wish I could've been old enough to enjoy watching davie cooper play
+Safe to say this is our biggest 45 minutes of the season. Let's get it done!!
+Stuart McCall is a fucking genius eh ;)
+Stuart McCall has to be on the drink with that team. Rank fucking rotten
+An Ruadh-stac is a mountain in the Torridon Hills of Wester Ross, within Ross-shire. http://t.co/14paA2YhFJ http://t.co/9ja1FVJATQ
+Loch Muick is a two-mile long freshwater loch in Aberdeenshire. http://t.co/bcKP3AwufW
+Chelmsford is the county town of Essex. http://t.co/Vp0EllnxZA http://t.co/0jccXWzyrm
+The Madingley Hills rise to the west of the City of Cambridge, in Cambridgeshire. http://t.co/ztrZTlfK4b
+Gold Harbour is a small bay along the eastern end of South Georgia. http://t.co/wR8nVuAOyA
+Galston is a town in Ayrshire, with a population of 5,000 a the 2001 census. http://t.co/o61thaMNsC
+Galashiels is a town and burgh on the border of Selkirkshire and Roxburghshire. http://t.co/vNzerVIaON http://t.co/LEPNyeaQz3
+Cloncoohy is a village in Fermanagh. http://t.co/jp6eOnZNa7
+Gadebridge is a suburb of Hemel Hempstead in Hertfordshire. http://t.co/8UPOm0GpGL http://t.co/hlMUjvR1Ms
+Clippesby is a small village in eastern Norfolk, standing amongst the Norfolk Broads. http://t.co/kc0Yt8buUu
+Loughriscouse is a village in County Down. http://t.co/MxvHN1AE7H
+Lisbellaw is a village in Fermanagh. http://t.co/LjDwsLfUrX
+Wolsingham is a small market town in Weardale, County Durham. http://t.co/KaqT3AY8Vr http://t.co/eUUDuNPiv3
+Bells Linn is a waterfall on the Bells Burn, a tributary of the Kielder Burn. http://t.co/p2GvpUYZ6C
+Lower Masteragwee is a village in County Londonderry. http://t.co/OMIw2tTznQ
+Trim is a town in Meath, standing on the River Boyne. http://t.co/FVxUsYHcg7 http://t.co/DGitzcVbR5
+Derrymacash is a village in County Armagh. http://t.co/hDGWNcX9hw
+The River Nene rises from three sources in the county of Northampton and flows 100 miles to the Wash. http://t.co/GYshYddRaI
+Coedkernew is a parish to the south west of the city of Newport, Monmouthshire. http://t.co/MEpuiQd5w5
+The West Highland Way is a linear long distance footpath through the west of the Highlands. http://t.co/w2Z9wkpyLJ
+Llanbadarn Fawr is an urbanised village and parish in Cardiganshire. http://t.co/kiTKVpdNZ1 http://t.co/V6Y1phCvf2
+Meeny is a village in County Londonderry. http://t.co/DoSCBq4Xay
+The River Orchy is a river in northern Argyllshire, the river which creates Glen Orchy. http://t.co/pAXVFM7DNP
+Conington is a small village in Huntingdonshire, on the western side of the fens. http://t.co/2WhZfZhPhw http://t.co/bPv7Dgo6hL
+West Knighton is a village in southern Dorset, found three miles southeast of the county town, Dorchester. http://t.co/En1k37o162
+Bendooragh is a village in County Antrim. http://t.co/47NCwTMMVq
+South Uist is an island of Inverness-shire in the Outer Hebrides. http://t.co/t9i00czXEp
+Brownlow is a village in County Armagh. http://t.co/FhHFw9s2N1
+Ballylesson is a village in County Down. http://t.co/iOkud7dV83
+Dunbar Island is part of the West Point Island Group of the Falkland Islands. http://t.co/fN788Posts
+Commercial End is a hamlet of Swaffham Bulbeck in Cambridgeshire. http://t.co/51ZBdTQ2jx http://t.co/rvypyTPRhF
+Lower Gortmacrane is a village in County Londonderry. http://t.co/jw0GcA3RfJ
+Bell Bar is a hamlet in Hertfordshire north of Brookmans Park and east of Welham Green. http://t.co/olpEzVwGBp
+Just watched Star Wars: The Force Awakens trailer again for the first time in a while. WHY DO I DO THIS TO MYSELF?!!?
+Not sure how I feel about window cleaners just letting themselves into the back garden.
+HURNA disappointed Brainwashed isn't here! I JUST WANT TO LISTEN TO WHILE SHE SLEEPS IN MY CAR.
+I make bad decisions when I'm tired
+Person who bought my car literally robbed me.
+But whatever.
+Absolutely hate working weekends
+Wild Saturday. Tucked up and ready for bed. @TattooSociety13 http://t.co/b1sV83qgUE
+Honestly still can't get over interstellar.
+Do not go gentle into that good night.
+You don't just watch interstellar, you experience it.
+This film is inspiring and mesmerising.
+The further through interstellar I get the more my mind is blown
+Hospital have completely fucked me over by moving my operation. Absolutely fuck the NHS.
+I'd Hurna love to give that skyscraper window cleaning a go!
+I must admit I do regret shaving my beard off just a little bit.
+iOS 8.2 update for a fucking Apple watch app? I can't even get rid of the fucking app! Go away. Now.
+A petition to stop Kanye West from playing Glastonbury? Ahahahahahahahahah fuck Kanye.
+There is fuck all on das television
+I always watch Ibiza weekender and I don't know why
+If football disappeared my life would literally stay the same and be affected in no way what so ever.
+X-men origins: Wolverine should even be allowed on TV it's just much of an abomination.
+I know it's for kids but Captain America hand wash smells huuuurna Fucking fine
+Seriously Rick and the rest of them need to butcher that whole fucking Alexandria town in The Walking Dead. Stupid Cowards.
+Feels shit driving my civic again. Thank god I'm selling it.
+Happy Mother's Day to my incredible mother. Keep strong you lovely lady. http://t.co/V5nDkAItx1
+Hola http://t.co/rriHhESFC1
+Suprised ive drove this far can't even see straight and I'm rough as fuck!
+Dyin for a nandos!
+Deffo don't look like family haha http://t.co/K6vqrJgSun
+fell asleep at 2 n now fully dressed ready for work, tired ain't even the word
+Not think its a mad feeling wen u do somert in your life n knowing u can never experience that feeling again
+Still working since 6am this morning n ive gotta be back up tomorrow morning at 6 again...  So tired!!!
+Can't wait for maternity leave just so I don't have to bend down and pick things up for the next 12 weeks. Such a task.
+Worst thing about having your own place is remembering to put the bins out.
+Addicted to #PrettyLittleLiars
+Aiming to have my thigh piece started before the summer!
+Off work sick again, &amp; poor wee Toby isn't well either. Day on the couch for us. http://t.co/30DW9TUZ03
+Hate that I work in the catering/hospitality industry. Holidays mean full on, constant work, rather than enjoying the time with your family.
+Just as I thought Coronation street couldn't get any more fake .... A fat ginger kid gets a shag
+That was an open ended tweet. Don't expect a spectacular ending
+What's more annoying than an American saying extraordinary ...
+Just stopped at glen eagles and we've picked up a group of people ...All with a few things in common ...American and cunts
+Too far Alex, too far
+Aviemore has 4G but my house in Inverness doesn't #logic
+Want to whip out rollercoaster tycoon on the train but the fear of getting judged is too much
+Bring back Gladiators
+'Vestibule area'....
+Lol forgot my deodorant, sweatytuesdays it'll have to be
+Spent the last couple of minutes stressing at how you can't have a black light ....
+Addicted to Catfish and don't even care
+Seriously how many screws does someone have to turn to screw your life up answer just one feeling not happy at all
+I miss the simple times when we were all  close how few words change things
+Today is going be just one those days that nothing goes right
+Tell me a story of a hero I'll write you a tragedy
+Just close your eyes and pray and hope to see you on the other side
+#wwtv  it will be reigns v Bryan v Rollins at wm as they lost what's important to wwe
+Been offered a job question is do I throw away two years hard work or do I keep on battling
+Checking into heart break hotel
+Need advice for Valentine's Day how. To make it special any ideas ?
+Big thanks my girl who always been by my side and never let me give love you babe even if you not on my Twitter now
+Bring on this weekend get see my old dance crew family for life
+Always have a back up plan time to sort that out 18 weeks till d day
+Can someone explain the female mind to me please never been so confused
+Ah the joys of a personal trainer coming in less than 6 hours and o can't sleep cause of silly thoughts in my head :/
+Wow this troll on Facebook is mad at me lmao
+Here's to 2015 this year has been one hell of a ride lets hope it stays that way here's to 2015 tweeters I raise my glass to you all
+After talking too the lady my life it time I give it up
+I been told after a year off I won't dance again time to prove them wrong 2015 is my year come on let's do this or go home
+Time pick my self up and dusty off a bad week next year will be better here's hoping
+Tired the head games is there any girl that normal out there ????
+Starting to think I need to slow life down stuff just got real quick I need to take time to step aside and look at this any advice be a help
+Okay so Sophie has grounded to my room to think about my choice words to night in other words I been given a night of gaming
+I think I'm falling for her she is my addiction and I can't help but feel this way for her
+I'm her superman she is my kryptonite finally found a woman who can keep up feeling good
+Why do you still haunt my memory after ten years I guess cause it was true love
+How do I get her to notice me open to ideas
+You get one shot at life so when it opens up take it
+Starting think dating a celbe be easier any ideas please in box or tweet back
+We are given a choice go hard or go home my choice is go harder than ever
+Time to walk the next college course and rock it like I done this last one and put a end to the haters words I'm the best in the world
+Starting to question if I still go the moves prove I can dance and make it big time
+It's 12:33am and I can't sleep :/
+What do we do when we feel all alone and not one turn to ?
+Swear this pain in my leg best go it been a week now hospital says it a small tear in the leg me thinks it more
+Why can't I stop thinking about her we are so different :/
+The other leg is worse :/ any idea how kill pain any one ? http://t.co/M4BLaCubxD
+Don't be silly, romance isn't dead
+
+Send nudes
+Remembering that time @NicolSkye had anal sex with an Asian women because she was on her period and made her prolapse #LoL
+Dundee did well to stop Aberdeen playing football #WhenInDoubtScrapItOut
+If you're getting turnt up. https://t.co/An8rcWl9xk
+I'm about two inches taller than the doors in my home which is the reason I'll have Parkinson's when I'm older
+I strained my eyes watching the eclipse today, guess i shouldn't have used a collinder #Haha
+My eyes are still fucked from looking directly at the sun for an hour #SoreHeadCentral
+My nana spat her tea out when I described to her what an eclipse was, she genuinely refused to believe me #OohMammy #PegiLegend
+I really like Norse names
+What happened on the 9th of November?
+Was just out seeing the northern lights, was really cool
+http://t.co/BiHj8LJ264 http://t.co/AuZb6PJqM4
+#TTIPThreat #TTIPBlueprint #DangerousEffects #STOPTTIP http://t.co/15qTFO84Wg
+#TTIPThreat #Democracy #NoPublicTruth #ClosedDoors #ActivistPower #ECI http://t.co/LgwGZqR7hR
+small tip take the staples out before you wipe your arse with it and post it back to him!! #BinTheLibDems http://t.co/cd1x21PwJS
+INEOS charm offensive on fracking under fire http://t.co/DcixhgetuJ
+INEOS Launches Scotland's biggest shale gas information programme http://t.co/4852MnQTtu
+Here guys im only 10 away from 800!! 
+
+Thats most likes i have ever had in my puff. 
+
+Any chance we could break... http://t.co/KlX71x0PoV
+Im still working on this blog i have been so careful with my wording ie no swearing so hard when they were SO RIGHT WING!!
+Hiya ive got more time now for ttip and fracking. More activism here we go 321
+Thats all memes i have just now. Get the YELLOW TORIES OUT. I met one the other night. A complete selfserving idiot PRO TTIP AND FRACKING.
+Take the twitter handle at the top and tweet to them. Dont just RT. #DannyAlexander http://t.co/zCC1w3MPCy
+Take the twitter handle at the top and tweet to them. Dont just RT. #JohnThurso http://t.co/DIzkYpugaI
+Take the twitter handle at the top and tweet to them. Dont just RT. #AlistairCarmichael http://t.co/ap7rNljKL5
+Take the twitter handle at the top and tweet to them. Dont just RT. #AlanReid http://t.co/4ClaP6jWiX
+Take the twitter handle at the top and tweet to them. Dont just RT. #MichaelCrockart http://t.co/aHI6YKNLYC
+Take the twitter handle at the top and tweet to them. Dont just RT. #MichaelMoore http://t.co/iT5PrwNMPb
+Take the twitter handle at the top and tweet to them. Dont just RT. #JoSwinson http://t.co/E2E0lLbB5w
+#MyFrackingvote  #WorldWaterDay http://t.co/DXeBwUSgXK
+Hold them accountable for the #FrackingPublicHealthRisk
+ #MyFrackingvote  #WorldWaterDay http://t.co/xuH8ncXweq
+i did not forget i was busy with memes
+ #MyFrackingvote  #WorldWaterDay http://t.co/jxPEroDt0u
+Important twitterstorm. Hold all these PRO parties responsible for DETROYING SCOTLAND IINSTEAD OF PROTECTING IT. http://t.co/byD4Lyl2we
+Best lie of last night....ttip will not effect workers rights. Typical yellow tory denial
+Hiya very surprising evening the snp candidate being the most left of the lot. I will carry on with ttip but more on the fracking issue
+Thinking of changing my tinder profile pic eh xo
+It was a dare and people are taking it as more than a joke but on a serious note got a big rash coming along
+This week on twitter: 10 new followers, 10 new unfollowers  and followed 4 people via http://t.co/aFiVtd0K62
+So full up oh ma god
+Your power of analysis is inherently strong as long as you are... More for Virgo http://t.co/DD7tw6OZZl
+Boys in your cars I would appreciate if you would stop revving your fucking engine going past my house, tryna sleep here. Kind regards x x x
+In desperate need of food
+So annoyed
+Bored
+If Fallout 4 is announced and Batman Arkham Knight isn't a let down I shall purchase a next gen right there and then
+Watched the AgeUK clip where David Cameron got grilled and then the BBC report with clear narration if it were Ed they'd show the whole clip
+Can we have a Louis Theroux documentary on the people that signed the Clarkson petition
+Mums review of Insurgent: a load of special effects without any substance
+I've now spent more time talking to the Cabinet Secretary for Justice than my local MP Danny Alexander
+When you remember that you agreed to bag pack your Saturday away
+Chappie isn't that bad, y'all should see it. I mean the finale overdoes the Transcendenceyness but that aside there's some good ideas
+I'm pretty sure last night I dreamt I was drunk looking for a kebab shop for hours on end.
+I had some baby Guinness's in Frankenstein and they were magic
+Scotland and Ireland should just play each other every week
+Also receive a formal invitation to Kerry in Ireland. Check
+Bucket list to check off. Share a tuna sandwich with an Irish couple at 4am in Edinburgh
+I'm in Edinburgh tonight, on a day where Scotland played Ireland at Murrayfield an Ireland win and a loss at the expense of England, amaze
+Scotland and Ireland were both winners today
+Every time Dundee United lose we have the courtesy to drop points too, so frustrating we could have 3rd wrapped up by now #ICTFC
+Uncle Frank is gorg
+What the Hive?
+Hello Edinburgh
+Here's a photo of the eclipse, just preping your timeline for tomorrow morning http://t.co/Cm17HvbkjB
+World Cup final is in December do you know what that means for Scottish Football? Celtic will be without 1 player for 2 weeks, thoughtless
+Barca for the Champions League and Wolfsburg for the Europa League
+I know as a collective we're pretty quiet but just before kick off can we please all hold up a banner saying #shaftedbytheSFA
+I now feel a little sympathy for all the times we shaft the Celtic fans and put our home games on a 12:45
+I honesty don't know if I should direct my anger towards the SFA or the TV companies, #FootballIsForTheMoney
+No trains, one 06:50 bus, 3 and half hour journey, 12:15 kick-off, the other team plays in Glasgow, no surprises #ICTFC #scottishcup
+Well we've got Celtic the week before in the league it's not really worked Dundee United hopefully it'll fare better for us #ICTFC
+Remember the first time you played Skyrim and giant spider came down from the cave roof, that's the memories I'll tell my children
+Recycling can make you friends
+Just put the bins out at 4 and met both my neighbours on either side, what are the chances
+I mean aside from the product placement and HILARIOUS racial stereotyping I'm willing to pay money to see it
+It's 2015 and not 2001 and I...... I wanna see an Adam Sandler film #PixelsMovie
+Credit to Hearts, they have more points already than Inverness did on the both times they got promoted in 03/04 and 09/10
+Rangers must be becoming the UKs biggest coupon ruiners
+Honestly considering the noise from the Reading fans I barely expected a cheer at full time never mind a pitch invasion
+How I see the male version of you @burnsymay #nakedmale #bigbannana #naked #BumdayMonday http://t.co/9EAzrqepp5
+Big Giant Slong!!
+So which level of push ups you gonna do @marymac_05 #musclemary #fitness http://t.co/It380QTgFX
+"Destany is for losers, it's just a stupid excuse to wait for things to happen instead of making them happen"- Blair Waldorf
+No way will any of my limbs be out of my covers or off my bed when I go to sleep
+We all know a fuck boy named chelsea
+Can tell this art project  is going to be the death of me
+Why does my family love my friends more than they love me
+I don't want no ravioli nigga
+This bus needs to calm because I've wacked my head off the seat about 8 times now
+This means war
+My brother took my ear phones
+Xoxo you're an arsehole
+Get away
+Does my mum honestly think it's hilarious to try hairdry half my head 10 minutes  before school
+"You can have a higher in English but at the end of the day Can Mr.mackintosh wax an eyebrow"
+Budapest MATRIX 2015
+#stylelink #matrixhaircare http://t.co/papFAzrsvT
+My third ten years + award from MATRIX #stylelink http://t.co/og7fAkixM1
+Just back from an amazing experience in Budapest with MATRIX! #stylelink http://t.co/Mwl4k87XRG
+#stylelink
+Budapest !!!! http://t.co/iWnytIncx0
+How much do you like being able to have your hair done at Bella?????
+Hmmmm
+LOVED Frozen theme! @HighlandsFW @glenmoriston @ZazaandCruz @sammymcktastic #hair
+Getting closer now!!!!! @CuttingRoom1 @HighlandsFW @Matrixhaircare @Synergysalonsup #excited #hair http://t.co/s2FbrOsPvV
+Buy MATRIX DESIGN PULSE styling  product FREE ESSIE NAIL POLISH! Official hairdressers @HighlandsFW @Matrixhaircare http://t.co/rsU5nCwLTo
+http://t.co/PxydcFmA2F
+https://t.co/i217nVYSKR
+https://t.co/Wg7mqWO4TW
+Lorraine and Lorna at the MATRIX WORLD CONFERENCE  in Spain! What a time! http://t.co/tiQzt04dZP
+Who would have thought? A lecture from Iggy? http://t.co/c0HyjWSk03
+Did you get your early bird ticket?
+Ooooo!!! Come on Belladrum tell all! What's happening on the Thurs?
+http://t.co/NJoGNcxHVX
+http://t.co/1ILDicdkxP
+Casting http://t.co/n7WDMVSp6C
+http://t.co/inWTeY3j61
+Jeanne your wedding hair pics, hope you had a lovely day! 
+Please tag so all your party get them x
+Enjoying a DIY hot shave at Cutting Room tent! http://t.co/vZgGhok40r
+Some of the Team at @CuttingRoom1 #Belladrum http://t.co/MQLt9OdFnK
+http://t.co/TkBMi0vxOu http://t.co/HVvztct1Jm
+Debbie one of our competition winners!
+http://t.co/hZdSNUa7GL
+http://t.co/Jhhp9CnX3j
+CALLING,,,,,,,  ESTHER A MACLEAN YOU HAVE WON!!!!!!
+a Cutting Room Festival Make-over! Come and see us!
+All prep done! Come on down!
+Here we go! http://t.co/eneHC7vUnt
+Couldn't be better! http://t.co/qRohiLGuep
+2013! time now for 2014! It's Bella day!
+http://t.co/O1FFHNgq7q
+Seen the weather forecast??? Laugh with confidence as your hair team will be waiting to help keep you looking... http://t.co/IhSqQlXQGJ
+I posted a new photo to Facebook http://t.co/qfwywv4UvX
+My taste in music is so random
+Got serious love for ABBA
+Today would have been Hafiz's 47th birthday. Those who know my family well, will know how much we miss him #takentooyoung
+Too many air traffic tragedies. Increasingly worrying travelling by plane. Thinking of all those families torn apart today
+8 out of 10 cats does countdown is hilarious
+Back up the A9, least mfrs got the tunes on #nodigital
+Mums asking me to take the dogs up to Tomatin for the second time today. Fs
+Now you're just somebody that I used to know
+On the slim chance I do wake up early enough to see the eclipse it better not be ducking cloudy or I'll write a letter of complaint
+The speaker really ought to tell all the MP's to sit up straight, unfold their arms, switch off their phones and stay quiet #TheBudget
+All this heckling and jeering. It's childish and sounds like a school playground. Have some manners #TheBudget
+One mp stands up and speaks in the House of Commons with his arms crossed. Has he had no education on body language? #TheBudget
+The team I work with are honestly the best @LewisKhanKnott @GingerShmeesh @jamierodgers123 @EllieMackintosh @sophiemaxtone to name a few
+Sold a lot of steaks at work tonight. Just saying.
+Just remembered we saw a convertible Range Rover Evoque prototype on the A9 at Tomatin the other day. Random @X44AGM
+BBC's daytime quiz shows are always so painful to watch
+Playlist: Madonna, Burzum and The Fall *seriously*
+Boys got the muscles, teachers got the brains, girls got the sexy legs - they win the game
+The yam brought it out of Richard Pryor, manipulated Bill Clinton with desires
+I love you, I hate you, I'm on the fence
+Warpaint wis kwality, despite the awful support band
+Buzzin for Wapaint on Tuesday
+My Top 3 #lastfm Artists: Kendrick Lamar (58), J Dilla (29) &amp; Fleetwood Mac (13) http://t.co/Am7q51q7Fc
+WE WANT THE FUNK #KingKunta
+To Pimp a Butterfly and Blade of the Ronin - 2015 is a good year for hip-hop
+What, like 3 men burning in a tank going "uurghh"? #HirePartridge
+I'm going nowhere, Lynn. Quite literally, I'm on the ring road. #HirePartridge
+Hi, I'm Alan Partridge and I drive a car, but not like THIS
+Let's have a look at what this idiot did.. In America
+Take your silver spoon and dig your grave
+All I want in life's a little bit of love to take the pain away....
+My Top 3 #lastfm Artists: Tame Impala (45), James Chance &amp; The Contortions (41) &amp; J Dilla (17) http://t.co/Am7q51q7Fc
+You could not be an attention seeking cunt and wish yer maw a happy mothers without a shite Facebook status. Nah mate, just want they likes
+Yellow matter custard dripping from a dead dog's eye
+I saw Gong live once a few years ago. Daevid Allen came onstage wearing a t-shirt with "No I'm not on fucking Facebook" written on it haha
+I think Let It Happen might be my new favourite Tame Impala song. That band just get better and better
+James Chance is probably the greatest dancer I've ever seen
+#jameschance #jameschanceandthecontortions #live #glasgow #saxophone #nowave https://t.co/V6HM8o0Vg2
+That new Tame Impala track is insane
+Someone want to write my dissertation for me. Will pay in gratitude
+Wait a minute, WHERE'S THE RUM HAM?!
+I know it's Scotland and that, but this rain is really taking the piss
+https://t.co/5l5sfnRJdj
+I get raging whenever my phones battery is at 45%
+Adventuring #fujix100t #fujifilm #instascotland #scotland #adventure #trossachs @ Ben A'an https://t.co/Hs55DlikYC
+just closed a deal using Adobe #EchoSign #esignature solution http://t.co/JDHytmrxPd
+Arrivals #VSCOcam #airport #welcomehome #loveher @ Glasgow International Airport https://t.co/7NUVqOo2hF
+Waiting, not so patiently #VSCOcam #welcomehome #airport #glasgow @ Glasgow International Airport https://t.co/rXU3iv6Kzr
+just closed a deal using Adobe #EchoSign #esignature solution http://t.co/JDHytmrxPd
+Golden #VSCOcam #campsies #sunset #beautifulscotland #instascotland @ Campsie Hills https://t.co/yIj0MKpYQ0
+Run afterglow #VSCOcam #run #sunsalutation #nike #resolutions #fitness @ Culcreuch Castle Hotel https://t.co/ovdOwLbv8q
+just closed a deal using Adobe #EchoSign #esignature solution http://t.co/JDHytmrxPd
+The road home #VSCOcam #campsies #instascotland #ontheroad #scotland #home @ Campsie Hills https://t.co/tmI2kHhx9E
+Happy Mothers Day to my wonderful mum haslamcathy #VSCOcam #mothersday #mummyandme @ Dunmore Hill https://t.co/0rB7cC7VUW
+just closed a deal in 22 hours using Adobe #EchoSign #esignature solution http://t.co/JDHytmrxPd
+Chilling in the morning sun #VSCOcam #downtime https://t.co/bkP5Z93lYD
+On the road again #VSCOcam #ontheroad #rayban #wayfarer https://t.co/sXFm7PGlZh
+Well that was fun #VSCOcam #tantrumseries #mummyandme @ Three Berries Cottage https://t.co/sMoOrjtwx8
+Awesome girls catchup day. Park, Coffee, Shop. #VSCOcam #girlsdayout @ M&amp;S - Silverburn https://t.co/gXZymWvtQB
+She's my favourite #VSCOcam #mummyandme #mygirl #toilet #kids @ Three Sisters Bake Killearn https://t.co/SM6rB5q7AS
+Little girl, big biscuit #VSCOcam #cafegirl #mummyandme @ Three Sisters Bake Killearn https://t.co/KdUoCXUJyd
+Snowman &amp; snow girl #VSCOcam #snowday #snowman #winter @ Culcreuch Castle Hotel https://t.co/mRNeNDeDT1
+The world at her feet #VSCOcam #maps #travel @ Three Berries Cottage https://t.co/x0FjJy0epC
+Take me home #VSCOcam #scotland #ontheroad @ Campsie Fells https://t.co/Q0iD5MXBOu
+Bare faced boy off to Aussie land #VSCOcam #nobeard @ Cafe Andaluz WestEnd https://t.co/m2lNjepxFY
+Basking in the morning light #catsofinstagram #VSCOcam #home @ Mum Mum &amp; Papa's House https://t.co/vqY1xMHTRM
+Exactly what I needed after last nights shenanigans #VSCOcam #wudon #glasgow @ Wudon http://t.co/uwG4CYbFxn
+This is where the magic happens #VSCOcam #photographyfarm #farmweek2015 @ Ridge Farm Studios http://t.co/OjzEBNqbyJ
+Good night #VSCOcam #farmweek2015 #photographyfarm #friends @ Ridge Farm Studios http://t.co/bbJwKsQTn1
+soooo pleased to be sharing this beautiful #isleoftiree styled shoot with @Mack_Photo @TheCoutureCo @PlanetFlowers http://t.co/KhhXLbbuCh
+Valentine's Day with the littly #VSCOcam #valentines #baking #homemade @ Three Berries Cottage http://t.co/jWqZcK7SYE
+I cooked steak... It was awesome #VSCOcam #happyvalentines #steak @ Three Berries Cottage http://t.co/vUFhezZMVS
+happy children http://t.co/Xy8nXnL0x8
+thanks for that sassyniam!
+ashley benson is so hot in every single thing she does
+literally logging off because everyone is gonna ruin pretty little liars for me
+I'm a humbled by outpouring of congratulations. I owe so much to so many. These 4 brothers of mine I love you . http://t.co/evx80u85pu
+Come party with me at my OFFICIAL HOF Party Friday in San Jose!  Go here to save $5 on tix http://t.co/9qztvK09RS #Shenanigans
+Always amazed to see  the Falls. http://t.co/cwBLqkJtvN
+Iowa st. and Baylor......really? ND by one brutal opening day.
+Join me at my @PWRshow #Shenanigans party Friday Night March 27 at the San Jose Sports Bar. Tickets at https://t.co/CLbCLMJoY4
+Well looks like I'm finally off the hook. Solid  guy. Can't believe he ratted me out as a 13 year old solider. http://t.co/uifTNqL32h
+Join me at my @PWRshow #Shenanigans party Friday Night March 27 at the San Jose Sports Bar. Tickets at https://t.co/CLbCLMJoY4
+Shooting my first campaign spot for State Representative. Oh wait this is a Magic Mike XXL photo shoot. My bad http://t.co/1ewrrgZBe6
+Morning view.West coast this morning. Love the energy of Venice. http://t.co/cIeD2g3pA8
+Incredible savings please check out the leader in supplements http://t.co/8ESv7Mc2FZ
+A special moment from last night. http://t.co/mdLMh1oyw5
+3/4 of the curtain call @ MSG Kliq 4 life http://t.co/Gw9S6WiSU1
+Check out my brand new t-shirt store at http://t.co/b8JQRvjAvh http://t.co/I04W4x3q70
+Check out my man @_Adam_Rodriguez on Night Shift tonight 10:00pm on NBC http://t.co/WPzC9Lniwd
+75 degrees at home and I'm heading to Bluefield WV. Upside greatest fans in the world. http://t.co/c3wy6lzATx
+Has that old school feel. Love when someone sends me a sweet pic. http://t.co/KVn3WUvbsF
+Happy Valentines day http://t.co/W3SxzilIhp
+Scott near making me spew
+T black is defo on the blob just now
+RIP
+Very bored
+Can't be dealing with a shit Saturday night
+Good do with a few days more sleep
+Fried
+Can't wait for the weekend
+That's my good mood ruined
+Can't touch this http://t.co/h44jU9WS6b
+Nothing better than finding new tuneys
+Would do anything for it to be the weekend
+Pleased with the haircut eh
+Can't be arsed staying in tonight
+You were the sun and moon to me
+Forbidden voices
+Tuneys are putting me in a weird mood tonight
+Whats she playing at
+Mum just handed me a 3 story mansion meal
+Just realised its Monday..
+Should probably wear my glasses all the  time
+Can't read writing of my tv from my bed..
+My eyes are getting so bad
+What a fucking weird dream I had last night
+My rooms like a wee prison cell
+Why am I watching twilight
+In such a bad mood
+Lolol
+Tragic news with yet another plane crash earlier.
+Why the fuck is the BBC doing a 'day in the fake life' of David Cameron?? Where's the actual news? @BBCNews
+How I did on Twitter this week: 11 Mentions, 1 Retweets, 367 Retweet Reach, 9 Favorited. How'd your week go? via http://t.co/O1XKgoKcrM
+Such sad news.
+When's El Clasico? Is it tomorrow?
+I'm obsessed with watching Top 10 videos, I just can't stop.
+Wish I could actually see the eclipse so I could celebrate with cheese and wine.
+Hope I can get a wee glimpse at the solar eclipse tomorrow. #GoAwayClouds
+My bet.....has not gone well. #Everton #Roma
+Did everyone except me see the northern lights tonight?
+Rangers....
+Monaco all over the place.
+Game on!
+Welbeck really needs to sort out his first touch.
+To Pimp A Butterfly is so good. #Kendrick
+Why are people complaining about Kanye West headlining Glastonbury? He's gonna be quality.
+How I did on Twitter this week: 8 Mentions, 6 Mention Reach, 7 Retweets. How'd your week go? via http://t.co/bfpMw6X9LN
+I always think how people got their jobs. Like, 'How did someone get a job to make sure cardboard boxes get made?'
+Happy coffee making @MissJessicaarH @DomeCafeGroup
+Sun is shining and the ducks are back @Java @coffee #Goodmorning http://t.co/BQZ5evBUOy
+I challenge all chefs to post at leat 2 live dishes being served any were in the world.. #chef #goodfood #provenance http://t.co/ka5b69p1LS
+#InternationalDayOfHappiness #smile #happy A Happy face always attracts more happy people, spread the fever @columbachef
+Happy Friday!  #happyfriday @NicolaSturgeon #Scotland #
+STOP RUINING PLL YA FUCKING FUDS
+The fact high school musical isn't on Netflix makes me sad
+my money is on roslyn getting glandular fever from pulling at contin hahahaha
+who just phoned me, claiming we matched on tinder?? hahahaha
+When you finish and reread the sexts http://t.co/dAgZKYRApD
+Things that suck dick: I either have to get a second job, or leave my current one in order to not have to live with my mum ever again.
+Today stats: 2 followers, No unfollowers and followed one person via http://t.co/uVImHrWv5b
+I want to have sex with James Spader's voice
+So disgusting.
+I don't understand how some men can just be so unbelievably creepy towards people and invade their personal space with NO permission.
+thank god for the kindness of strangers. it makes me happy that some people are willing to help others when they don't even know them.&lt;3
+Today stats: No new followers, 2 unfollowers via http://t.co/uVImHrWv5b
+Today stats: One follower, No unfollowers via http://t.co/uVImHrWv5b
+Today stats: One follower, 2 unfollowers and followed one person via http://t.co/uVImHrWv5b
+Today stats: One follower, One unfollower and followed one person via http://t.co/uVImHrWv5b
+Today stats: One follower, No unfollowers and followed 3 people via http://t.co/uVImHrWv5b
+I want to be best friends with @RuPaul I would honestly die happy if we were pals
+Today stats: 5 followers, One unfollower and followed 4 people via http://t.co/uVImHrWv5b
+Today stats: No new followers, One unfollower via http://t.co/uVImHrWv5b
+Today stats: One follower, No unfollowers via http://t.co/uVImHrWv5b
+Today stats: One follower, One unfollower and followed one person via http://t.co/uVImHrWv5b
+Today stats: 2 followers, 2 unfollowers and followed 3 people via http://t.co/uVImHrWv5b
+My bros first @kylieminogue show(4y/o): mum had unreal food poisoning but he refused to not go so security had to go with him #dedicatedfan
+Today stats: One follower, 2 unfollowers and followed one person via http://t.co/uVImHrWv5b
+#SkilledTrade #Job in #NorthLittleRock, AR: Assistant Inspector at Tyco http://t.co/FPD3tepS8k #Jobs #TweetMyJobs
+#Sales #Job in #Addison, IL: Service Sales Business Development Executive - SimplexGrinnell (C... at Tyco http://t.co/rDqKAvmnYj
+Tyco: Apprentice Electrical Installation Engineer - Inverness (#shire, Inverness) http://t.co/nyIwZtQJbG #SkilledTrade #Job #Jobs
+#SanDiego, CA #SkilledTrade #Job: Commercial Installation Coordinator-TycoIS (San Diego, CA) at Tyco http://t.co/e0G5HYvYas
+#Clerical #Job in #Brampton, ON: Bilingual Data Entry / Call Center Agent - Brampton at Tyco http://t.co/M2VnvEACiT #Jobs
+#Orlando, FL #Sales #Job: Electronic Systems Sales Executive, SimplexGrinnell (Orlando, FL) at Tyco http://t.co/nuko5ujwhJ #Jobs
+Tyco: Service Technician I (#Richland, MS) http://t.co/MNluvK2W7O #SkilledTrade #Job #Jobs #TweetMyJobs
+#Irvine, CA #Engineering #Job: Database Engineer IV, Tyco Retail Solutions (Irvine, CA) at Tyco http://t.co/PkjXhpm8hT #Jobs
+#Irvine, CA #Engineering #Job: Java Software Engineer IV, Tyco Retail Solutions (Irvine, CA) at Tyco http://t.co/4BMFlunYgJ
+#Finance #Job in #Monroe, NC: Cost Accountant at Tyco http://t.co/JNECJzvoi3 #Jobs #TweetMyJobs
+Tyco #Marketing #Job: Customer Intelligence Analyst III (#Lancashire, Lancashire) http://t.co/OdBS1Rwqo1 #Jobs #TweetMyJobs
+Tyco #BusinessMgmt #Job: Project Manager II, Tyco LSP (Monroe, NC) (#Monroe, NC) http://t.co/qBVxJ7X8Cl #Jobs #TweetMyJobs
+#Marketing #Job alert: Product Development Alarm &amp; Detection Manager | Tyco | #Westminster, MA http://t.co/V5C8Wt0wAP #Jobs
+Tyco: Security Systems Technician (Technicien des systmes de scurit) (#StLaurent, QC) http://t.co/2IWUFaIaXa #SkilledTrade #Job
+Sprinkler Service Technician II, SimplexGrinnell (West Palm B... - Tyco: (#Jupiter, FL) http://t.co/9vmEHtbvUq #SkilledTrade #Job
+#Mumbai, Maharashtra #Sales #Job: Service Sales Representative at Tyco http://t.co/0td16tmzmb #Jobs #TweetMyJobs
+#Sales #Job in #Princeton, NJ: Business Services Representative at Tyco http://t.co/o3PXaRhii6 #Jobs #TweetMyJobs
+Tyco #Manufacturing #Job: Co-Op - Operations Engineer (Jan-Aug or Jun-Dec 2015) (#Marinette, WI) http://t.co/4ufWpMlCeV #Jobs
+Tyco: Co-Op - Operations Management (June-Dec 2015) (#Marinette, WI) http://t.co/iiSKoZMY9B #Manufacturing #Job #Jobs
+#Sales #Job alert: Electronic Service Sales Executive, SimplexGrinnell (... | Tyco | #SantaFeSprings, CA http://t.co/XdFOT6OhRL
+#Manufacturing #Job alert: Manufacturing Manager, Marinette, WI | Tyco | #Marinette, WI http://t.co/HYyhj2HZ3k #Jobs
+Tyco: Service Sales Executive, SimplexGrinnell (NYC, NY) (#Secaucus, NJ) http://t.co/o2DmACJi0P #Sales #Job #Jobs #TweetMyJobs
+Information Development Manager - Tyco: (#Cork, Cork) http://t.co/SKxfkZYpnU #Engineering #Job #Jobs #TweetMyJobs
+Tyco: Sales Account Manager - Oil &amp; Gas (#Norfolk, Norfolk) http://t.co/e3oy0ZUkUj #Sales #Job #Jobs #TweetMyJobs
+Tyco: Fire Suppression Portables Technician (RSSR) (#Richardson, TX) http://t.co/5e9k3s32mh #SkilledTrade #Job #Jobs #TweetMyJobs
+#TweetMyJobs #Engineering #Job alert: Information Developer | Tyco | #Cork, Cork http://t.co/PJ895qbbZp #Jobs
+#Rogers, AR #SkilledTrade #Job: Project Manager, Retail Security - TycoIS (Rogers, AR) at Tyco http://t.co/ddHF7C1OV5 #Jobs
+#Engineering #Job in #Marinette, WI: Development Chemist, Marinette, WI at Tyco http://t.co/zBwMOSKgoN #Jobs #TweetMyJobs
+#CustomerService #Job alert: Customer Service Supervisor, Phoenix, AZ | Tyco | #Phoenix, AZ http://t.co/RC7LQCEmn2 #Jobs
+Regional Sales Manager - Engineered Systems - Tyco: (#Hertfordshire, Hertfordshire) http://t.co/Y9CPREnjD5 #Sales #Job #Jobs
+Tyco #SkilledTrade #Job: Service Technician (#Singapore, South West) http://t.co/kVZNXUICK3 #Jobs #TweetMyJobs
+#SkilledTrade #Job in #HemelHempstead, Hertfordshire: Install Engineer - Southwest at Tyco http://t.co/C1OE1Bl2X8 #Jobs
+#Manchester, Manchester #Sales #Job: Regional Sales Manager - Engineered Systems at Tyco http://t.co/v7K0iZfLNU #Jobs
+Tyco #Manufacturing #Job: Manufacturing Supervisor-2nd Shift, Lubbock, TX (#Lubbock, TX) http://t.co/vkeIg5iMAA #Jobs
+Tyco #Sales #Job: Commercial Account Executive - TycoIS (Fort Worth, TX) (#FortWorth, TX) http://t.co/G36DZPulQv #Jobs
+Tyco: Inspector (129) (#EastBerlin, CT) http://t.co/W6NTxLK2W4 #SkilledTrade #Job #Jobs #TweetMyJobs
+#security #Job in #Santiago, Region Metropolitana ...: Patrol Responder III at Tyco http://t.co/0hVtstKgRi #Jobs #TweetMyJobs
+Tyco: Patrol Responder III (#Calama, Antofagasta) http://t.co/DTEBD9lbmI #security #Job #Jobs #TweetMyJobs
+#Finance #Job in #Singapore, South West: AP Accountant (6 months contract) at Tyco http://t.co/HVz30QySxy #Jobs #TweetMyJobs
+Business Development Manager, Water - Tyco: (#Mumbai, Maharashtra) http://t.co/JaPzO5Sk4R #Sales #Job #Jobs #TweetMyJobs
+Tyco: Field Project Manager I (#CliftonPark, NY) http://t.co/rg7d0cKhPY #SkilledTrade #Job #Jobs #TweetMyJobs
+#CustomerService #Job in #Westminster, MA: Customer Service Administrator at Tyco http://t.co/m3zQeaw1y1 #Jobs #TweetMyJobs
+Tyco: Service Sales Executive, SimplexGrinnell (San Francisco, CA) (#Livermore, CA) http://t.co/lXDBTqnwdk #Sales #Job #Jobs
+#SkilledTrade #Job in #Raleigh, NC: Service Technician II (Sprinkler) at Tyco http://t.co/MrTwKjxAeI #Jobs #TweetMyJobs
+#Marinette, WI #SupplyChain #Job: Material Handler - Warehouse 2nd Shift at Tyco http://t.co/9UP1JNf5uX #Jobs #TweetMyJobs
+#Wallingford, CT #SkilledTrade #Job: Commercial Security Estimator TycoIS (Wallingford, CT) at Tyco http://t.co/g97pilI2fZ #Jobs
+Tyco #Clerical #Job: Administrative Assistant II (#Salem, VA) http://t.co/BMF8IEdtRg #Jobs #TweetMyJobs
+Tyco #SkilledTrade #Job: Electronic Inspector (#Raleigh, NC) http://t.co/Yls0e0hBPW #Jobs #TweetMyJobs
+Tyco: Suppression Route Sales and Service Representative (RSSR) (#Mechanicsburg, PA) http://t.co/d8LLfO5N0k #SkilledTrade #Job
+#TweetMyJobs #Finance #Job alert: Sr. FP&amp;A Analyst (FP&amp;A Analyst III) | Tyco | #BocaRaton, FL http://t.co/3ywfGnZLKI #Jobs
+"@BabyAnimalGifs: Wait, V-E-T spells park right? http://t.co/6lhY2rvTVs" @AyeAyeAnderson
+"@BabyAnimalGifs: I'd love to chill with these guys http://t.co/7karymqly1" @AyeAyeAnderson
+Finallu after weeks of waiting my Scuf controller came!! #scuf #gamer http://t.co/IphxgD1AnP
+"@BabyAnimalGifs: Husky, bloodhound, golden retriever, &amp; mastiff all mixed into one! http://t.co/YZ4zubpXhy" @AyeAyeAnderson
+Hate when i ask something to someone and instantly regret it.
+My kitchen and living room is a ice rink. So much alcohol.
+Belter
+Lolllllll
+And the chippy there is gash.
+So random how we ended up being in Aviemore at some point last night.
+Two hours cleaning and 6 magic trees later the smell of spew in my car is gone.
+Anyone know what the steading in Alness charges for a full valet?
+On with the A team tomorrow. The A stands for bAnter.
+Dunno.. Don't care...
+Cannot wait for my weekend off!
+On yourself 'Master Bruce' #batman
+Fuck forgot to buy a euro millions ticket.
+Starving.
+Doing lifts if anyone needs 07522237090
+Can't stand missing beautiful days like today because of work.
+Cracking day for Dads birthday, climbing the Quiraing. http://t.co/Uy47XeEZh7
+When fiction and fact meet.  #Shrek #Richard3 http://t.co/XnUvICWvkk
+Does anyone else think Richard 3rd looks too much like Lord Farquhar? #Shrek
+#SNP are riding high on the wave, whilst the rest swim below and would rather bung up their snorkels than take a breath of fresh air.
+Will someone tell #Rennie that #Salmond has ruled out being I any Westminster cabinet. #snp
+#sundaypolitics. #Murphy being hung, drawn and quartered. #snp
+#YES  #SNP http://t.co/Ma5qz7NtIa
+Anyone know if @celticservant is alive and well??
+1st the eclipse...then this today on the beach. http://t.co/ndphhK4KmM
+Hurrah, me and Dad have been contacted to be in a movie being filmed here on Skye at the end of this month.
+We tried our best for the eclipse.  :-) http://t.co/it1PJjMyhy
+98% Eclipse predicted. #SNP http://t.co/LuXIBSk0b8
+Keep looking out the window for cloud to clear. Camera ready, tripod ready. #aurorawatch
+Its alright guys I fixed it x http://t.co/XcOUuVYLoa
+thank god quiz has shut down in inverness such a wast of space
+mum must told me my dinner is in the microwave aw naaah i can't even deal
+just seen an old photo off me and nearly spewed whhyyyyyyy did i ever do that to myself #idiot  #boke
+Sorry Ryan from muir of Ord think i'll pass x #RoumanceIsntDead https://t.co/jV7DatnRYq
+i love shopping by my self like i spend so much time touching and looking at the clothes
+Triangl bikinis are rank
+i'm ready to go back out x
+missing my boy #titch
+this weekend has been sooo fleek
+telling the bar man that titch is buying us drink was too funny and to put it on his bill
+was too drunnk last night don't even remember spending a penny
+it felt like me,maia and becca have been friends for years but only spent the night with them for the first time last night love em
+i dunno how i do it like go out all the time and still make work freshhhhh
+Best night eves meetings a celebrate http://t.co/i0EvFco26l
+.when us Mort and buy shire food http://t.co/wtfuly4T5a
+Nah bought two salads last night and a exspresso because I'm on a diet  but was mortal and loved the attention http://t.co/eLAln8xEkk
+i need a camera crew to follow my friends on a night out pure mad eh
+is Inverness ready for me and my pawls x
+Coming soon! We're working with @foursquare so you can tag specific locations in Tweets: https://t.co/MwlLz5Pfvq http://t.co/jATzXvbuV6
+We're looking forward to #MuseumWeek 2015 with 2200 museums participating in 64 countries: https://t.co/0a02GAJRui http://t.co/5RATRX0rrl
+We consulted the experts, and there's only one thing left to do for our 9th birthday. #ThankYou
+https://t.co/PTewI5s5yn
+9/9: We're amazed at how far we've traveled together. #ThankYou for an incredible nine years. https://t.co/tfVZIO34ZR
+8/9: And we continue to be captivated by what you create and Tweet every day. http://t.co/OliugZpS7Z
+7/9: Over the years, you've shared what you care about with people around the world. https://t.co/NFTgbg334E http://t.co/wWDVjcTOI4
+6/9: Together, we followed those moments as they turned into movements. http://t.co/O9XZ836Pox
+5/9: As people shared what was happening in the moment, the world watched breaking news unfold in real time. http://t.co/mgJiBLssiL
+4/9: Adding to our global community, world leaders also joined the conversation. http://t.co/Gd5iPyzAad
+3/9: And Twitter became a place for all kinds of voices, big and small. https://t.co/qGK1ZHSoJb
+2/9: Right away, you began giving us great ideas to help make Twitter better. https://t.co/upTBCki2pf
+1/9: Nine years ago, it all started with a Tweet. https://t.co/4WkQb6ZuGP http://t.co/49pLA4A1Jj
+Today we're introducing bigger photos to make browsing profiles on Twitter for iPhone even more fun. http://t.co/iXrKT2p7JK
+We're rolling out new profiles on Twitter for Android: it's now easier to view bios, Tweets and photos.
+https://t.co/MMnvuuHaxh
+We're excited Twitter will be one of the apps users can experience when Apple Watch becomes available on April 24. http://t.co/jR0qlwjgDy
+Via @dailymuse, "5 ways Twitter can help you reach your career goals": https://t.co/qJRwLpxCwq
+Cricket fans, here's our guide on how to join the global #CWC15 viewing party on Twitter: https://t.co/1kXyTd2KvU http://t.co/mZE4Bqn0r4
+Twitter is the best accessory for #NYFW. See how @TwitterFashion is looking ahead with the #fashionflock: https://t.co/coemEqqzAQ
+Group Direct Messages are now available for everyone. Share Tweets, be direct and grow the group. https://t.co/yoXP83RSyP
+Goodnight assholes
+8 days till lawson, buzzing
+110% an emotional wreck now http://t.co/vFny8SrqOG
+walked round aldi singing "here comes the bride" &amp; original heartbreaker bc I remembered it's my cousins wedding in 2days
+wtf man, lil chris is dead, holy shit
+awkward when someone faves your tweet bc they probably think it's about them and it's not ://
+when he's a 10 with a beard but a class A 0 ned without it :////
+I'm so happy, my name change finally came!!
+why the fuck am a awake
+http://t.co/LPghqEPJ4U
+just want a normal sleeping pattern
+PASSION FOR FASHION #BRATZFANFORLYF
+watching The Bratz Movie lol
+Gail Platt is the most annoying cunt ever
+I'm going to sleep fuck this, this house is shit &amp; I hate it
+20:25 and I want to go to sleep ://
+face tattoos are acc rotten
+My right thighs swollen &amp; got a bruise from my hip bone to just above my knee wit is this
+I think I just died &amp; went to heaven http://t.co/G5zKu3LfH3
+My name change is going to officially be here by tomorrow or Wednesday, yasss
+I'm still vv tired, so I'm going back to sleep
+I just really fucking miss you a lot recently and idk why
+I miss Rixton so Fkn much
+Renesmee is such a beautiful name, a love twilight
+Come join this new Up and coming group on Facebook 
+@Xbox related 
+
+https://t.co/ijzy11WHBc
+http://t.co/6AlhFxUlHY
+Win a Year of Loot Crate! https://t.co/tU4EuFBphL
+Why I love #DayZ 
+
+http://t.co/gQEdrhfVMA
+Today stats: One follower, One unfollower via http://t.co/s0E39lmfwC
+Today stats: 3 followers, 2 unfollowers and followed 3 people via http://t.co/s0E39lmfwC
+#Eclipse https://t.co/X1CXExfcrw
+Titanfall: http://t.co/SDpulRZec5 via @YouTube
+Today stats: 4 followers, 3 unfollowers and followed 2 people via http://t.co/s0E39lmfwC
