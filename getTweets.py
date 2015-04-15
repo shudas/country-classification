@@ -53,7 +53,7 @@ for tweet in tweets:
 all_tweets = {}
 for uid in valid_users:
 ##    to specify the number of tweets returned per user, set count
-    utweets = api.GetUserTimeline(user_id=uid, count=50, include_rts=False, exclude_replies=True, trim_user=True)
+    utweets = api.GetUserTimeline(user_id=uid, count=200, include_rts=False, exclude_replies=True, trim_user=True)
     all_tweets[uid] = ([i.text for i in utweets])
 
 ##write tweets out to file. this is in append mode so it will append to testTweetFile
