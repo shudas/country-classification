@@ -6,16 +6,17 @@ from os import listdir
 from os.path import isfile, join
 from stemmer import PorterStemmer
 
-folder = sys.argv[1]
-trainingFolder = "trainingData/"
+trainingFolder = sys.argv[1]
+folder = sys.argv[2]
 
 # Set these parameters to change classifier performance
 ngram = 1  #Up to 3
 removeHashtags = False
-removeNumbers = False
+removeNumbers = True
+removeUsernames = False
 stem = False
-removeStop = False
-removeEmo = False
+removeStop = True
+removeEmo = True
 
 def tokenizeText(inString):
     inString = inString.lower()
@@ -24,8 +25,9 @@ def tokenizeText(inString):
     inString = re.sub('http://t\.co/[A-Za-z0-9]+', ' ', inString)
     inString = re.sub('https://t\.co/[A-Za-z0-9]+', ' ', inString)
 
-    # Remove Twitter usernames
-    inString = re.sub('@[A-Za-z0-9_]+', ' ', inString)
+    # Remove Twitter usernames (optional)
+    if removeUsernames:
+        inString = re.sub('@[A-Za-z0-9_]+', ' ', inString)
 
     # Remove HTML special characters
     inString = re.sub('&[A-Za-z0-9]+;', ' ', inString)
@@ -36,7 +38,7 @@ def tokenizeText(inString):
 
     # Remove numbers (optional)
     if removeNumbers:
-        inString = re.sub('\s[0-9]+\s', ' ', inString)
+        inString = re.sub('\s[0-9]+\s', '10', inString)
 
     # Remove unnecesary commas
     inString = re.sub('., ', ' ', inString)
@@ -52,9 +54,6 @@ def tokenizeText(inString):
     # Parsing apostrophes
     inString = re.sub(r'([A-Za-z]+)\'([A-Za-z]+)', r'\1\2', inString)
     inString = re.sub(r'([A-Za-z]+)\'', r'\1', inString)
-
-    # Dealing with dates
-    inString = re.sub('(?![0-9][0-9])/(?![0-9][0-9])', ' ', inString)
 
     # Only remove '-' if there are two of them consecutively or a space follows or precedes
     inString = re.sub('--', ' ', inString)
@@ -91,46 +90,49 @@ def removeEmoticons(inList):
 
 #----------------------------------------------------------------------
 
-def trainNaiveBayes(files):
+def trainNaiveBayes(countries):
     classProbs = {}
     wordProbs = {}
     text = {}
 
-    for myFile in files:
-        # Change this line depending on format of data file names
-        r = re.compile('([a-zA-Z]+)_[a-zA-Z0-9\.]+')
-        m = r.match(myFile)
-        className = m.group(1)
+    totalFiles = 0.0
 
-        # Update class counts
-        if className in classProbs:
-            classProbs[className] += 1.0
-        else:
-            classProbs[className] = 1.0
+    for country in countries:
+        countryFiles = [f for f in listdir(join(trainingFolder,country)) if isfile(join(trainingFolder,country,f))]
+        totalFiles += len(countryFiles)
 
-        with open(trainingFolder + myFile, 'r') as f:
-            data = f.read()
-            
-            # Preprocess text
-            data = tokenizeText(data)
-            if removeStop:
-                data = removeStopwords(data)
-            if removeEmo:
-                data = removeEmoticons(data)
-            if stem:
-                data = stemWords(data)
+        for myFile in countryFiles:
+            className = country
 
-            # Extract text for particular class
-            if className in text:
-                text[className].extend(data)
-                text[className].append('')
+            # Update class counts
+            if className in classProbs:
+                classProbs[className] += 1.0
             else:
-                text[className] = data
-                text[className].append('')
+                classProbs[className] = 1.0
+
+            with open(trainingFolder + country + "/" + myFile, 'r') as f:
+                data = f.read()
+            
+                # Preprocess text
+                data = tokenizeText(data)
+                if removeStop:
+                    data = removeStopwords(data)
+                if removeEmo:
+                    data = removeEmoticons(data)
+                if stem:
+                    data = stemWords(data)
+
+                # Extract text for particular class
+                if className in text:
+                    text[className].extend(data)
+                    text[className].append('')
+                else:
+                    text[className] = data
+                    text[className].append('')
 
     # Update from counts to probabilities
     for c in classProbs:
-        classProbs[c] = classProbs[c]/len(files)
+        classProbs[c] = classProbs[c]/totalFiles
 
     vocabulary = {}
     n = {}
@@ -153,6 +155,7 @@ def trainNaiveBayes(files):
             
             if ngram == 3:
                 if x+2 < len(text[c]):
+                    word2 = text[c][x+1]
                     word3 = text[c][x+2]
                     gram = " ".join([word, word2, word3])
                 else:
@@ -178,8 +181,9 @@ def trainNaiveBayes(files):
 
     return classProbs, wordProbs, vocabSize, n
 
-def testNaiveBayes(filename, classProbs, wordProbs, vocabSize, n):
-    with open(folder + filename, 'r') as f:
+
+def testNaiveBayes(filename, classProbs, wordProbs, vocabSize, n, country):
+    with open(folder + country + "/" + filename, 'r') as f:
         data = f.read()
         data = tokenizeText(data)
         if removeStop:
@@ -205,15 +209,16 @@ def testNaiveBayes(filename, classProbs, wordProbs, vocabSize, n):
                 gram = word
 
             if ngram == 2:
-                if x+1 < len(text[c]):
+                if x+1 < len(data):
                     word2 = data[x+1]
                     gram = " ".join([word, word2])
                 else:
                     continue
 
             if ngram == 3:
-                if x+2 < len(text[c]):
-                    word3 = data[c][x+2]
+                if x+2 < len(data):
+                    word2 = data[x+1]
+                    word3 = data[x+2]
                     gram = " ".join([word, word2, word3])
                 else:
                     continue
@@ -232,12 +237,20 @@ def testNaiveBayes(filename, classProbs, wordProbs, vocabSize, n):
 #----------------------------------------------------------------------
 
 # Main
+countryFolders = [f for f in listdir(trainingFolder)]
+classProbs, wordProbs, vocabSize, n = trainNaiveBayes(countryFolders)
 
-trainingFiles = [f for f in listdir(trainingFolder) if isfile(join(trainingFolder,f))]
-classProbs, wordProbs, vocabSize, n = trainNaiveBayes(trainingFiles)
+testFolders = [f for f in listdir(folder)]
+total = 0.0
+correct = 0.0
 
-testFiles = [f for f in listdir(folder) if isfile(join(folder,f))]
+for country in testFolders:
+    testFiles = [f for f in listdir(join(folder,country)) if isfile(join(folder,country,f))]
+    for testFile in testFiles:
+        prediction = testNaiveBayes(testFile, classProbs, wordProbs, vocabSize, n, country)
+        # print testFile, prediction
+        total += 1.0
+        if prediction == country:
+            correct += 1.0
 
-for testFile in testFiles:
-    prediction = testNaiveBayes(testFile, classProbs, wordProbs, vocabSize, n)
-    print ",".join([testFile, prediction])
+print "Accuracy:", correct/total
