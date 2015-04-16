@@ -1,8 +1,8 @@
 import twitter
+import os
 
 
-
-
+folder_name = "DEBUG"
 radius = '100mi'
 append_or_write = 'w'
 
@@ -39,7 +39,7 @@ CONSUMER_SECRET4 = "agR5PFf4h7654qhqgbGDGva8eh0rR8YjDnDY7mbNhkBXrnZkHW"
 ACCESS_KEY4 = "33133400-7LIrnIThjk9V9jqUxNVN526N8Vanfv6ErBOAuxYrq"
 ACCESS_SECRET4 = "sTFJV9Qz32xVA7bwFjPJ1CnBKqsQb6DBoGoLtBPFrLQQC"
 
-api = twitter.Api(consumer_key=CONSUMER_KEY4, consumer_secret=CONSUMER_SECRET4, access_token_key=ACCESS_KEY4, access_token_secret=ACCESS_SECRET4)
+api = twitter.Api(consumer_key=CONSUMER_KEY, consumer_secret=CONSUMER_SECRET, access_token_key=ACCESS_KEY, access_token_secret=ACCESS_SECRET)
 
 ##rerunning this search multiple times in the same process returns the samtweets
 ##to get new tweets, we must restart the program.
@@ -59,10 +59,15 @@ for uid in valid_users:
 ##write tweets out to file. this is in append mode so it will append to testTweetFile
 for user, i in all_tweets.iteritems():
     try:
-        f = open("NewData\\" + COUNTRY_FILE + "\\" + str(user), append_or_write)
-        for tweet in i:
-            f.write('%s\n' % tweet)
+        f = open(folder_name + os.sep + COUNTRY_FILE + os.sep + str(user), append_or_write)
+        for tweet in i: #in case of unicode errors
+            try:
+                f.write('%s\n' % tweet.encode('utf8'))
+            except:
+                print "unicode error " + tweet.encode('utf8')
+                continue
         f.close()
-    except: #in case of unicode errors or other errors
+    except: #in case of file errors
+        print "file error"
         continue
 
