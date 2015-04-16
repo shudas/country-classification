@@ -1,5 +1,6 @@
 # Cultural Classification of Tweets
 # SVM classifier 
+# must 'module load python' before running on CAEN
 # Eric Riedel, Shu Das, Ross McKay, Lily Chen
 
 import sys, re, math, operator
@@ -9,6 +10,7 @@ from stemmer import PorterStemmer
 from sklearn.svm import LinearSVC
 import countryclassifier as cc
 import numpy as np
+from sklearn.metrics import accuracy_score
 
 #parameters to change classifier performance defined in countryclassifier.py
 
@@ -114,30 +116,16 @@ def main():
 
     vocab = createVocab()
     #print vocab
-    # training_feat, train_label = extractFeatures(cc.trainingFolder, vocab, languages)
+    training_feat, train_label = extractFeatures(cc.trainingFolder, vocab, languages)
     #extract labels from labeled test data 
-    # test_feat, test_label = extractFeatures(cc.folder, vocab, languages)
-    feat = extractFeaturesDemo('Demo', vocab, languages)
-    # print feat
-    for v in vocab:
-        if vocab[v] == 1: 
-            print '1', v 
-        elif vocab[v] == 2: 
-            print '2', v
-        elif vocab[v] == 3: 
-            print '3', v
-        elif vocab[v] == 4: 
-            print '4', v
-        elif vocab[v] == 5: 
-            print '5', v
-    print len(feat): 
-    for i in range(len(feat)): 
+    test_feat, test_label = extractFeatures(cc.folder, vocab, languages)
 
-
-    # clf = linearSVC()
-    # clf.fit(training_feat, train_label)
-    # prediction = clf.predict(test_feat)
-    #score accuracy 
+    print 'testing folder: ', cc.folder
+    print 'training folder:', cc.trainingFolder
+    clf = LinearSVC()
+    clf.fit(training_feat, train_label)
+    prediction = clf.predict(test_feat)
+    print 'accuracy:', accuracy_score(prediction, test_label)
 
 main()
 #-----------------------------------------------------------------------
