@@ -11,8 +11,12 @@ from sklearn.svm import LinearSVC
 import countryclassifier as cc
 import numpy as np
 from sklearn.metrics import accuracy_score
+from sklearn import preprocessing
+from sklearn.feature_extraction.text import TfidfTransformer 
 
 #parameters to change classifier performance defined in countryclassifier.py
+normalizeMatrix = False
+tfidf = True
 
 #----------------------------------------------------------------------
 def createVocab():
@@ -102,9 +106,7 @@ def extractFeaturesDemo(usersFolder, vocab, languages):
 
     return feature_matrix
 
-
 #----------------------------------------------------------------------
-
 #Main
 def main():
     languages = {
@@ -119,6 +121,16 @@ def main():
     training_feat, train_label = extractFeatures(cc.trainingFolder, vocab, languages)
     #extract labels from labeled test data 
     test_feat, test_label = extractFeatures(cc.folder, vocab, languages)
+
+    if tfidf: 
+        transformer = TfidfTransformer()
+        training_feat = transformer.fit_transform(training_feat)
+        test_feat = transformer.fit_transform(test_feat)
+
+    if normalizeMatrix: 
+        training_feat = preprocessing.normalize(training_feat)
+        test_feat = preprocessing.normalize(test_feat)
+
 
     print 'testing folder: ', cc.folder
     print 'training folder:', cc.trainingFolder
