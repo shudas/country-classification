@@ -6,8 +6,6 @@ from os import listdir
 from os.path import isfile, join
 from stemmer import PorterStemmer
 
-trainingFolder = sys.argv[1]
-
 # Set these parameters to change classifier performance
 ngram = 1  #Up to 3
 removeHashtags = True
@@ -16,6 +14,8 @@ removeUsernames = True
 stem = False
 removeStop = True
 removeEmo = True
+
+trainingFolder = "TRAIN/"
 
 def tokenizeText(inString):
     inString = inString.lower()
@@ -243,7 +243,7 @@ def testNaiveBayes(inputData, classProbs, wordProbs, vocabSize, n):
 # Main
 inputData = raw_input("Enter phrase: ")
 
-countryFolders = [f for f in listdir(trainingFolder)]
+countryFolders = [f for f in listdir("TRAIN/")]
 classProbs, wordProbs, vocabSize, n = trainNaiveBayes(countryFolders)
 
 prediction = testNaiveBayes(inputData, classProbs, wordProbs, vocabSize, n)
