@@ -11,15 +11,21 @@ folder = sys.argv[2]
 
 # Set these parameters to change classifier performance
 ngram = 1  #Up to 3
-removeHashtags = False
+removeHashtags = True
 removeNumbers = True
-removeUsernames = False
+removeUsernames = True
 stem = False
 removeStop = True
 removeEmo = True
 
 def tokenizeText(inString):
     inString = inString.lower()
+
+    # Remove non-unicode characters
+    inString = re.sub(r'[^\x00-\x7F]+', ' ', inString)
+
+    # Remove HTML special characters
+    inString = re.sub('&[A-Za-z0-9]+;', ' ', inString)
 
     # Remove URLs
     inString = re.sub('http://t\.co/[A-Za-z0-9]+', ' ', inString)
@@ -29,36 +35,31 @@ def tokenizeText(inString):
     if removeUsernames:
         inString = re.sub('@[A-Za-z0-9_]+', ' ', inString)
 
-    # Remove HTML special characters
-    inString = re.sub('&[A-Za-z0-9]+;', ' ', inString)
+    # Remove unnecessary characters
+    inString = re.sub('[\\\!@%\^&\*(){}\[\]\|;:<>"\?~_\+=/\.,]', ' ', inString)
 
     # Remove Twitter hashtags (optional)
     if removeHashtags:
-        inString = re.sub('#[A-Za-z0-9_]+', ' ', inString)
+        inString = re.sub('#', ' ', inString)
 
     # Remove numbers (optional)
     if removeNumbers:
-        inString = re.sub('\s[0-9]+\s', '10', inString)
-
-    # Remove unnecesary commas
-    inString = re.sub('., ', ' ', inString)
-    inString = re.sub(r'([A-Za-z]+),', r'\1 ', inString)
-
-    # Removing unnecessary periods
-    inString = re.sub('\s\.\s', ' ', inString)
-    inString = re.sub(r'([0-9A-Za-z]+)\.\s', r'\1 ', inString)
-
-    inString = re.sub(r'([A-Za-z]+)\.[0-9]', r'\1 ', inString)
-    inString = re.sub(r'([0-9]+)\.[A-Za-z]', r'\1 ', inString)
+        inString = re.sub('\s[0-9]+\s', ' ', inString)
 
     # Parsing apostrophes
     inString = re.sub(r'([A-Za-z]+)\'([A-Za-z]+)', r'\1\2', inString)
     inString = re.sub(r'([A-Za-z]+)\'', r'\1', inString)
+    inString = re.sub('\'', ' ', inString)
 
     # Only remove '-' if there are two of them consecutively or a space follows or precedes
     inString = re.sub('--', ' ', inString)
     inString = re.sub(r'([A-Za-z0-9])- ', r'\1 ', inString)
     inString = re.sub(r' -([A-Za-z0-9])', r' \1', inString)
+    inString = re.sub('\s-\s', ' ', inString)
+
+    # Split up tweets if using bigrams or trigrams
+    if ngram > 1:
+        inString = re.sub('\n', ' --- ', inString)
 
     outList = inString.split()
     return outList
@@ -68,6 +69,7 @@ def removeStopwords(inList):
         stopwords = f.read().split()
 
     outList = [x for x in inList if x not in stopwords]
+
     return outList
 
 def stemWords(inList):
@@ -143,6 +145,7 @@ def trainNaiveBayes(countries):
         for x in range(0, len(text[c])):
             word = text[c][x]
 
+            # Form ngram for training
             if ngram == 1:
                 gram = word
 
@@ -175,6 +178,7 @@ def trainNaiveBayes(countries):
 
     vocabSize = len(vocabulary)
 
+    # Calculate Naive Bayes ngram values
     for c in wordProbs:
         for word in wordProbs[c]:
             wordProbs[c][word] = (wordProbs[c][word] + 1)/(n[c] + vocabSize)
@@ -205,6 +209,7 @@ def testNaiveBayes(filename, classProbs, wordProbs, vocabSize, n, country):
 
             word = data[x]
 
+            # Form the n-gram for testing
             if ngram == 1:
                 gram = word
 
@@ -223,6 +228,7 @@ def testNaiveBayes(filename, classProbs, wordProbs, vocabSize, n, country):
                 else:
                     continue
 
+            # Use logs to avoid tiny values
             if gram in wordProbs[c]:
                 p += math.log10(wordProbs[c][gram])
             else:
@@ -244,13 +250,20 @@ testFolders = [f for f in listdir(folder)]
 total = 0.0
 correct = 0.0
 
+# Predict for each test file
 for country in testFolders:
     testFiles = [f for f in listdir(join(folder,country)) if isfile(join(folder,country,f))]
     for testFile in testFiles:
         prediction = testNaiveBayes(testFile, classProbs, wordProbs, vocabSize, n, country)
-        # print testFile, prediction
         total += 1.0
         if prediction == country:
             correct += 1.0
 
 print "Accuracy:", correct/total
+
+# Print top words for each country
+for c in wordProbs:
+    print c
+    sorted_x = sorted(wordProbs[c].items(), key=operator.itemgetter(1), reverse=True)
+    for x in range(0,50):
+        print sorted_x[x]         
