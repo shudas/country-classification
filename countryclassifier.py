@@ -249,17 +249,29 @@ classProbs, wordProbs, vocabSize, n = trainNaiveBayes(countryFolders)
 testFolders = [f for f in listdir(folder)]
 total = 0.0
 correct = 0.0
+correctLineNumbers = []
+incorrectLineNumbers = []
 
 # Predict for each test file
 for country in testFolders:
     testFiles = [f for f in listdir(join(folder,country)) if isfile(join(folder,country,f))]
     for testFile in testFiles:
+        with open(join(folder,country,testFile)) as f:
+            for i, l in enumerate(f):
+                pass
+        numLines = i + 1
         prediction = testNaiveBayes(testFile, classProbs, wordProbs, vocabSize, n, country)
         total += 1.0
         if prediction == country:
+            correctLineNumbers.append(numLines)
             correct += 1.0
+        else:
+            incorrectLineNumbers.append(numLines)
 
 print "Accuracy:", correct/total
+print "Average number of tweets for corrects: ", reduce(lambda x, y: x + y, correctLineNumbers) / len(correctLineNumbers)
+print "Average number of tweets for incorrects: ", reduce(lambda x, y: x + y, incorrectLineNumbers) / len(incorrectLineNumbers)
+
 
 # Print top words for each country
 for c in wordProbs:
