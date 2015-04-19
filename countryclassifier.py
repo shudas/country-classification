@@ -114,7 +114,7 @@ def trainNaiveBayes(countries):
 
             with open(trainingFolder + country + "/" + myFile, 'r') as f:
                 data = f.read()
-            
+
                 # Preprocess text
                 data = tokenizeText(data)
                 if removeStop:
@@ -155,7 +155,7 @@ def trainNaiveBayes(countries):
                     gram = " ".join([word, word2])
                 else:
                     continue
-            
+
             if ngram == 3:
                 if x+2 < len(text[c]):
                     word2 = text[c][x+1]
@@ -196,7 +196,7 @@ def testNaiveBayes(filename, classProbs, wordProbs, vocabSize, n, country):
             data = removeEmoticons(data)
         if stem:
             data = stemWords(data)
-    
+
     data.append("")
     temp = ""
     data = [temp] + data
@@ -233,7 +233,7 @@ def testNaiveBayes(filename, classProbs, wordProbs, vocabSize, n, country):
                 p += math.log10(wordProbs[c][gram])
             else:
                 p += math.log10(1.0/(n[c] + vocabSize))
-        probs[c] = math.log10(classProbs[c]) + p    
+        probs[c] = math.log10(classProbs[c]) + p
 
     v = list(probs.values())
     k = list(probs.keys())
@@ -243,39 +243,40 @@ def testNaiveBayes(filename, classProbs, wordProbs, vocabSize, n, country):
 #----------------------------------------------------------------------
 
 # Main
-countryFolders = [f for f in listdir(trainingFolder)]
-classProbs, wordProbs, vocabSize, n = trainNaiveBayes(countryFolders)
+if __name__ == "__main__":
+    countryFolders = [f for f in listdir(trainingFolder)]
+    classProbs, wordProbs, vocabSize, n = trainNaiveBayes(countryFolders)
 
-testFolders = [f for f in listdir(folder)]
-total = 0.0
-correct = 0.0
-correctLineNumbers = []
-incorrectLineNumbers = []
+    testFolders = [f for f in listdir(folder)]
+    total = 0.0
+    correct = 0.0
+    correctLineNumbers = []
+    incorrectLineNumbers = []
 
-# Predict for each test file
-for country in testFolders:
-    testFiles = [f for f in listdir(join(folder,country)) if isfile(join(folder,country,f))]
-    for testFile in testFiles:
-        with open(join(folder,country,testFile)) as f:
-            for i, l in enumerate(f):
-                pass
-        numLines = i + 1
-        prediction = testNaiveBayes(testFile, classProbs, wordProbs, vocabSize, n, country)
-        total += 1.0
-        if prediction == country:
-            correctLineNumbers.append(numLines)
-            correct += 1.0
-        else:
-            incorrectLineNumbers.append(numLines)
+    # Predict for each test file
+    for country in testFolders:
+        testFiles = [f for f in listdir(join(folder,country)) if isfile(join(folder,country,f))]
+        for testFile in testFiles:
+            with open(join(folder,country,testFile)) as f:
+                for i, l in enumerate(f):
+                    pass
+            numLines = i + 1
+            prediction = testNaiveBayes(testFile, classProbs, wordProbs, vocabSize, n, country)
+            total += 1.0
+            if prediction == country:
+                correctLineNumbers.append(numLines)
+                correct += 1.0
+            else:
+                incorrectLineNumbers.append(numLines)
 
-print "Accuracy:", correct/total
-print "Average number of tweets for corrects: ", reduce(lambda x, y: x + y, correctLineNumbers) / len(correctLineNumbers)
-print "Average number of tweets for incorrects: ", reduce(lambda x, y: x + y, incorrectLineNumbers) / len(incorrectLineNumbers)
+    print "Accuracy:", correct/total
+    print "Average number of tweets for corrects: ", reduce(lambda x, y: x + y, correctLineNumbers) / len(correctLineNumbers)
+    print "Average number of tweets for incorrects: ", reduce(lambda x, y: x + y, incorrectLineNumbers) / len(incorrectLineNumbers)
 
 
-# Print top words for each country
-for c in wordProbs:
-    print c
-    sorted_x = sorted(wordProbs[c].items(), key=operator.itemgetter(1), reverse=True)
-    for x in range(0,50):
-        print sorted_x[x]         
+    # Print top words for each country
+    for c in wordProbs:
+        print c
+        sorted_x = sorted(wordProbs[c].items(), key=operator.itemgetter(1), reverse=True)
+        for x in range(0,50):
+            print sorted_x[x]
