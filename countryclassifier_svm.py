@@ -13,10 +13,12 @@ import numpy as np
 from sklearn.metrics import accuracy_score
 from sklearn import preprocessing
 from sklearn.feature_extraction.text import TfidfTransformer 
+from sklearn.feature_selection import SelectPercentile, f_classif
 
 #parameters to change classifier performance defined in countryclassifier.py
-normalizeMatrix = False
-tfidf = True
+normalizeMatrix = True
+tfidf = False
+feature_selection = False
 
 #----------------------------------------------------------------------
 def createVocab():
@@ -108,7 +110,7 @@ def extractFeaturesDemo(usersFolder, vocab, languages):
 
 #----------------------------------------------------------------------
 #Main
-def main():
+if __name__ == "__main__":
     languages = {
         'USA': 0,
         'UK': 1, 
@@ -117,27 +119,38 @@ def main():
     }
 
     vocab = createVocab()
-    #print vocab
+    print 'done vocab'
     training_feat, train_label = extractFeatures(cc.trainingFolder, vocab, languages)
+    #    print 'training_feat'
+    #    print training_feat 
+    #    print 'train_label'
+    #    print train_label
     #extract labels from labeled test data 
     test_feat, test_label = extractFeatures(cc.folder, vocab, languages)
 
     if tfidf: 
+        print 'tfidf'
         transformer = TfidfTransformer()
         training_feat = transformer.fit_transform(training_feat)
         test_feat = transformer.fit_transform(test_feat)
 
     if normalizeMatrix: 
+        print 'normalize'
         training_feat = preprocessing.normalize(training_feat)
         test_feat = preprocessing.normalize(test_feat)
 
+    if feature_selection:
+        print 'feature selection'
+        selector = SelectPercentile(f_classif, percentile=10)
+        training_feat = selector.fit_transform(training_feat, train_label)
+        test_feat = selector.transform(test_feat)
 
     print 'testing folder: ', cc.folder
     print 'training folder:', cc.trainingFolder
     clf = LinearSVC()
     clf.fit(training_feat, train_label)
+    print 'done fitting'
     prediction = clf.predict(test_feat)
     print 'accuracy:', accuracy_score(prediction, test_label)
 
-main()
 #-----------------------------------------------------------------------
