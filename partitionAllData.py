@@ -5,14 +5,15 @@ import random
 ## folder tree structure
 ## ALL_DATA/
     ## AUSTRALIA/
-        ## SHITTON OF TWEETS
+        ## ONE FILE PER USER
     ## CANADA/
-        ## SHITTON OF TWEETS
+        ## ONE FILE PER USER
     ## UK/
-        ## SHITTON OF TWEETS
+        ## ONE FILE PER USER
     ## US/
-        ## SHITTON OF TWEETS
+        ## ONE FILE PER USER
 
+## Perform the partition
 def partition_folder(all_dir, country):
     num_in_test = int(test_percentage * len(all_dir))
     test_idx = set(random.sample([i for i in range(len(all_dir))], num_in_test))
@@ -29,7 +30,7 @@ def partition_folder(all_dir, country):
         else:
             shutil.copy(os.path.join(src, all_dir[i]), os.path.join(destTrain, all_dir[i]))
 
-## first delete existing training/test folder
+## First delete existing train/test folder
 allFolder = 'ALL_DATA'
 UK = 'UK'
 US = 'USA'
@@ -37,6 +38,8 @@ CAN = 'CANADA'
 AUS = 'AUSTRALIA'
 trainFolder = 'TRAIN'
 testFolder = 'TEST'
+
+# Change this to change the fraction of tweets that get reserved for testing
 test_percentage = 0.2
 
 if os.path.exists(trainFolder):
