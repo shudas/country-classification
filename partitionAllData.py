@@ -14,8 +14,6 @@ import random
         ## SHITTON OF TWEETS
 
 def partition_folder(all_dir, country):
-    print len(all_dir)
-    print [i for i in range(len(all_dir))]
     num_in_test = int(test_percentage * len(all_dir))
     test_idx = set(random.sample([i for i in range(len(all_dir))], num_in_test))
     src = os.path.join(allFolder, country)
