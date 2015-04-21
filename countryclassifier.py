@@ -240,14 +240,54 @@ def testNaiveBayes(filename, classProbs, wordProbs, vocabSize, n, country):
 
     return k[v.index(max(v))]
 
+def getCountries():
+    selectedCountries = ["AUSTRALIA", "CANADA", "UK", "USA"]
+    user_input = -1
+    while user_input != 0:
+        print "Selected countries:",
+        for country in selectedCountries:
+            print country,
+        print
+        print "Please select an option: \n   0. Run\n   1. Remove AUSTRALIA"
+        print "   2. Remove CANADA\n   3. Remove USA\n   4. Remove UK"
+        user_input = int(raw_input("Option: "))
+        if user_input == 0:
+            print "\n"
+            break
+        elif user_input == 1:
+            selectedCountries = [f for f in selectedCountries if f != "AUSTRALIA"]
+        elif user_input == 2:
+            selectedCountries = [f for f in selectedCountries if f != "CANADA"]
+        elif user_input == 3:
+            selectedCountries = [f for f in selectedCountries if f != "USA"]
+        elif user_input == 4:
+            selectedCountries = [f for f in selectedCountries if f != "UK"]
+        else:
+            print "Please select a valid option."
+        print "\n"
+
+    print "Running cultural classifier on",
+    size_limit = len(selectedCountries)
+    counter = 0
+    for country in selectedCountries:
+        
+        if counter != (size_limit - 1):
+            print country,
+            print "and",
+        else:
+            print country + "...",
+        counter += 1
+    return selectedCountries
+
 #----------------------------------------------------------------------
 
 # Main
 if __name__ == "__main__":
-    countryFolders = [f for f in listdir(trainingFolder)]
+    userSelectedCountries = getCountries()
+    countryFolders = [f for f in listdir(folder) if f in userSelectedCountries]
     classProbs, wordProbs, vocabSize, n = trainNaiveBayes(countryFolders)
 
-    testFolders = [f for f in listdir(folder)]
+    testFolders = [f for f in listdir(folder) if f in userSelectedCountries]
     total = 0.0
     correct = 0.0
     correctLineNumbers = []
@@ -269,9 +309,10 @@ if __name__ == "__main__":
             else:
                 incorrectLineNumbers.append(numLines)
 
-    print "Accuracy:", correct/total
+    print "\n\nAccuracy:", correct/total
     print "Average number of tweets for corrects: ", reduce(lambda x, y: x + y, correctLineNumbers) / len(correctLineNumbers)
     print "Average number of tweets for incorrects: ", reduce(lambda x, y: x + y, incorrectLineNumbers) / len(incorrectLineNumbers)
+    print
 
 
     # Print top words for each country
