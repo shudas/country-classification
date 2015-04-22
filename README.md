@@ -49,6 +49,7 @@ countryclassifier.py:
 	country configuration is reached.
 
 	This program will output the overall accuracy of the classifier as well as the top 10 words for each class.
+	(More top words can be output by changing variables in the code.)
 
 
 countryclassifier_svm.py:
