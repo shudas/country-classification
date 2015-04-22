@@ -13,10 +13,9 @@ folder = sys.argv[2]
 ngram = 1  #Up to 3
 removeHashtags = True
 removeNumbers = True
-removeUsernames = True
-stem = False
+removeUsernames = False
 removeStop = True
-removeEmo = True
+stem = False
 
 def tokenizeText(inString):
     inString = inString.lower()
@@ -303,7 +302,6 @@ if __name__ == "__main__":
     #print "Average number of tweets for corrects: ", reduce(lambda x, y: x + y, correctLineNumbers) / len(correctLineNumbers)
     #print "Average number of tweets for incorrects: ", reduce(lambda x, y: x + y, incorrectLineNumbers) / len(incorrectLineNumbers)
     #print
-
 
     # Print top words for each country
     for c in wordProbs:

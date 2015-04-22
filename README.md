@@ -5,20 +5,18 @@
 Must have installed the python-twitter API wrapper: https://github.com/bear/python-twitter
 
 getTweets.py:
-	- This program basically gathers out data set (a bunch of tweets)
-	- Each time this program is ran, it is ran for a specific country and a specific location 
-	  within that country
-	- To change the country, simply comment out the current country and uncomment out
-	  the next country
-	- To change the locations within a country, simply change the geo_index variable
+	- This program was used to gather our data set (the tweets)
+	- This program is run for a specific country and a specific location within that country
+	- To change the country, comment out the current country and uncomment out the next country within the code
+	- To change the locations within a country, change the geo_index variable
 
 	Run this program with the command:
 	python getTweets.py
 
 	The program will create and write to anywhere between 0-100 files, depending on the amount 
-	of users tweeting in that location at runtime. The program creates these files within a 
+	of users tweeting in the specified location at runtime. The program creates these files within a 
 	certain folder (ex. All_DATA/USA/) based on the country for that run. The files names are
-	users and the content are that user's most recent tweets. The program writes around 90 
+	user IDs and the content is that user's most recent tweets. The program writes around 90 
 	tweets per user.
 	
 
@@ -35,13 +33,20 @@ partitionAllData.py:
 
 
 countryclassifier.py:
-	- Trains and tests a Naive Bayes classifier
+	- Trains and tests a Naive Bayes classifier on the given data
 	- First command line argument specifies the folder to be used for training the classifier
 	- Second command line argument specifies the folder to be used for testing the classifier
 	- Variables listed at the top of the program can be changed to impact classifier performance (ex: choosing to remove hashtags or not)
+	- References the code in stemmer.py when the word stemming option is turned on
 
 	Run this program with the command:
 	python countryclassifier.py TRAIN/ TEST/
+
+	Upon running the program, the user will see a listing of options, which allows them
+	to remove countries from consideration in the classification process. The default option
+	is to run the classifier on all countries (US, UK, Canada, Australia), however any
+	combination of these can be removed. Use option 0 to run the classifier once the desired
+	country configuration is reached.
 
 	This program will output the overall accuracy of the classifier as well as the top 10 words for each class.
 
@@ -50,7 +55,8 @@ countryclassifier_svm.py:
 	- Trains and tests a linear SVM classifier 
 	- First command line argument specifies the folder to be used for training the classifier 
 	- Second command line argument specifies the folder to be used for testing the classifier 
-	- Variables at the top of can be used to specify the weighting scheme of the feature vectors used in the classifier (i.e. tfidf, normalization, feature selection
+	- Variables at the top of can be used to specify the weighting scheme of the feature vectors used in the classifier
+	  (i.e. tfidf, normalization, feature selection
 	
 	Run this program with the command: 
 	python countryclassifier_svm.py TRAIN/ TEST/ 
@@ -58,8 +64,8 @@ countryclassifier_svm.py:
 	This program will output the overall accuracy of the classifier. 
 
 getStatistics.py:
-	- This program can be run anytime after the data has been collected
-	- It gets various statistics on the data set
+	- This program can be run any time after the data has been collected
+	- It provides various statistics on the data set
 
 	Run this program with the command:
 	python getStatistics.py
