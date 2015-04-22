@@ -147,6 +147,22 @@ if __name__ == "__main__":
     clf = LinearSVC()
     clf.fit(training_feat, train_label)
     prediction = clf.predict(test_feat)
+    weights = clf.coef_
+    weights_x, weights_y = weights.shape
+    
+    #prints the five highest weighted words and their
+    for x in range(0, weights_x):
+        args = np.argsort(weights[x])
+        if x == 0: print 'USA'
+        if x == 1: print 'UK'
+        if x == 2: print 'AUS'
+        if x == 3: print 'CANADA'
+        for i in [-1, -2, -3, -4, -5]: 
+            index = args[i]
+            for word in vocab: 
+                if vocab[word] == index:
+                    print word, weights[x][index]
+
     print 'accuracy:', accuracy_score(prediction, test_label)
 
 #-----------------------------------------------------------------------
