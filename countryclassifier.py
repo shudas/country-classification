@@ -82,13 +82,6 @@ def stemWords(inList):
 
     return outList
 
-def removeEmoticons(inList):
-    with open('emoticons.txt') as f:
-        emoticons = f.read().split()
-
-    outList = [x for x in inList if x not in emoticons]
-    return outList
-
 
 #----------------------------------------------------------------------
 
@@ -119,8 +112,6 @@ def trainNaiveBayes(countries):
                 data = tokenizeText(data)
                 if removeStop:
                     data = removeStopwords(data)
-                if removeEmo:
-                    data = removeEmoticons(data)
                 if stem:
                     data = stemWords(data)
 
@@ -192,8 +183,6 @@ def testNaiveBayes(filename, classProbs, wordProbs, vocabSize, n, country):
         data = tokenizeText(data)
         if removeStop:
             data = removeStopwords(data)
-        if removeEmo:
-            data = removeEmoticons(data)
         if stem:
             data = stemWords(data)
 
@@ -240,6 +229,7 @@ def testNaiveBayes(filename, classProbs, wordProbs, vocabSize, n, country):
 
     return k[v.index(max(v))]
 
+# Manages the menu for running the program and for removing countries from classification consideration
 def getCountries():
     selectedCountries = ["AUSTRALIA", "CANADA", "UK", "USA"]
     user_input = -1
@@ -310,14 +300,14 @@ if __name__ == "__main__":
                 incorrectLineNumbers.append(numLines)
 
     print "\n\nAccuracy:", correct/total
-    print "Average number of tweets for corrects: ", reduce(lambda x, y: x + y, correctLineNumbers) / len(correctLineNumbers)
-    print "Average number of tweets for incorrects: ", reduce(lambda x, y: x + y, incorrectLineNumbers) / len(incorrectLineNumbers)
-    print
+    #print "Average number of tweets for corrects: ", reduce(lambda x, y: x + y, correctLineNumbers) / len(correctLineNumbers)
+    #print "Average number of tweets for incorrects: ", reduce(lambda x, y: x + y, incorrectLineNumbers) / len(incorrectLineNumbers)
+    #print
 
 
     # Print top words for each country
     for c in wordProbs:
         print c
         sorted_x = sorted(wordProbs[c].items(), key=operator.itemgetter(1), reverse=True)
-        for x in range(0,50):
+        for x in range(0,10):
             print sorted_x[x]

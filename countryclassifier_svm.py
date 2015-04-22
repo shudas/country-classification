@@ -20,12 +20,17 @@ normalizeMatrix = True
 tfidf = False
 feature_selection = False
 
+#in countryclassifer.py
+# trainingFolder is first command line argument 
+# testing folder is second command line argument 
+
 #----------------------------------------------------------------------
+#reads in training data folder and creates the dictionary of vocabulary
 def createVocab():
     vocab = {}
     index = 0 
     subfolders = listdir(join(cc.trainingFolder)) 
-    #print subfolders
+
     for sf in subfolders:
         for user_file in listdir(join(cc.trainingFolder, sf)):
             if isfile(join(cc.trainingFolder, sf, user_file)): 
@@ -36,30 +41,33 @@ def createVocab():
                 data = cc.tokenizeText(data)
                 if cc.removeStop:
                     data = cc.removeStopwords(data)
-                if cc.removeEmo:
-                    data = cc.removeEmoticons(data)
                 if cc.stem:
                     data = cc.stemWords(data)
 
+                #add words to the vocabulary 
                 for token in data:
                     if token not in vocab:
                         vocab[token] = index
                         index += 1
     return vocab
 
+#extracts feature array and a corresponding label array to the dataset
 def extractFeatures(folder, vocab, languages):
     subfolders = listdir(join(cc.trainingFolder))
 
+    #initialize the size of the feature matrix 
     num_users = 0 
     for sf in subfolders: 
         num_users += len(listdir(join(cc.trainingFolder, sf)))
-    #print 'num_users', num_users
     feature_matrix = np.zeros((num_users, len(vocab)))
     labels = np.array([])
 
+    #calculate raw counts for words in each user file
     index = 0 
     for sf in subfolders: 
         sf_array = np.ones(len(listdir(join(cc.trainingFolder, sf)))) * languages[sf]
+
+        #add in labels 
         labels = np.append(labels, sf_array)
         for user_file in listdir(join(cc.trainingFolder, sf)):
             #extract raw text from document
@@ -69,11 +77,10 @@ def extractFeatures(folder, vocab, languages):
             data = cc.tokenizeText(data)
             if cc.removeStop:
                 data = cc.removeStopwords(data)
-            if cc.removeEmo:
-                data = cc.removeEmoticons(data)
             if cc.stem:
                 data = cc.stemWords(data)
 
+            #update word counts in feature matrix
             for token in data: 
                 if token in vocab: 
                     feature_matrix[index][vocab[token]] += 1
@@ -81,9 +88,11 @@ def extractFeatures(folder, vocab, languages):
 
     return feature_matrix, labels 
 
+#takes in a folder of user tweet files, does not have subfolders of labels 
+#can be used to predict for individual users whose countries are unknown
+#not actually used in main, but makes system robust so that a main can be called on 
+#unlabled users 
 def extractFeaturesDemo(usersFolder, vocab, languages):
-    #takes in a folder of just users, does not have subfolders of labels 
-
     feature_matrix = np.zeros((len(listdir(join(usersFolder))), len(vocab)))
     print feature_matrix
     user_index = 0 
@@ -95,8 +104,6 @@ def extractFeaturesDemo(usersFolder, vocab, languages):
         data = cc.tokenizeText(data)
         if cc.removeStop:
             data = cc.removeStopwords(data)
-        if cc.removeEmo:
-            data = cc.removeEmoticons(data)
         if cc.stem:
             data = cc.stemWords(data)
         # print len(data) 
@@ -121,24 +128,20 @@ if __name__ == "__main__":
     vocab = createVocab()
     print 'done vocab'
     training_feat, train_label = extractFeatures(cc.trainingFolder, vocab, languages)
-    #    print 'training_feat'
-    #    print training_feat 
-    #    print 'train_label'
-    #    print train_label
+
     #extract labels from labeled test data 
     test_feat, test_label = extractFeatures(cc.folder, vocab, languages)
 
+    #transform count matrix 
     if tfidf: 
         print 'tfidf'
         transformer = TfidfTransformer()
         training_feat = transformer.fit_transform(training_feat)
         test_feat = transformer.fit_transform(test_feat)
-
     if normalizeMatrix: 
         print 'normalize'
         training_feat = preprocessing.normalize(training_feat)
         test_feat = preprocessing.normalize(test_feat)
-
     if feature_selection:
         print 'feature selection'
         selector = SelectPercentile(f_classif, percentile=10)
@@ -149,7 +152,6 @@ if __name__ == "__main__":
     print 'training folder:', cc.trainingFolder
     clf = LinearSVC()
     clf.fit(training_feat, train_label)
-    print 'done fitting'
     prediction = clf.predict(test_feat)
     print 'accuracy:', accuracy_score(prediction, test_label)
 
