@@ -2,7 +2,7 @@ import twitter
 import os
 
 # Where the tweets are written to
-folder_name = "ALL_DATA2"
+folder_name = "ALL_DATA"
 radius = '50mi'
 
 # COUNTRIES

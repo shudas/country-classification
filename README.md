@@ -7,8 +7,12 @@ Must have installed the python-twitter API wrapper: https://github.com/bear/pyth
 getTweets.py:
 	- This program was used to gather our data set (the tweets)
 	- This program is run for a specific country and a specific location within that country
-	- To change the country, comment out the current country and uncomment out the next country within the code
+	- To change the country, comment out the current country and uncomment out the next country 
+	  within the code
 	- To change the locations within a country, change the geo_index variable
+	- Every time you run the program, change the value of he variable key_index
+	  key_index can have the value of 0, 1, 2, or 3. This rotates through different access
+	  tokens so we do not hit the Twitter API limit.
 
 	Run this program with the command:
 	python getTweets.py
