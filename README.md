@@ -47,8 +47,15 @@ countryclassifier.py:
 
 
 countryclassifier_svm.py:
-	-execute 'module load python' before running on CAEN 
-	-set normalizeMatrix, tfidf parameters before running 
+	- Trains and tests a linear SVM classifier 
+	- First command line argument specifies the folder to be used for training the classifier 
+	- Second command line argument specifies the folder to be used for testing the classifier 
+	- Variables at the top of can be used to specify the weighting scheme of the feature vectors used in the classifier (i.e. tfidf, normalization, feature selection
+	
+	Run this program with the command: 
+	python countryclassifier_svm.py TRAIN/ TEST/ 
+
+	This program will output the overall accuracy of the classifier. 
 
 getStatistics.py:
 	- This program can be run anytime after the data has been collected

@@ -126,7 +126,6 @@ if __name__ == "__main__":
     }
 
     vocab = createVocab()
-    print 'done vocab'
     training_feat, train_label = extractFeatures(cc.trainingFolder, vocab, languages)
 
     #extract labels from labeled test data 
@@ -134,22 +133,17 @@ if __name__ == "__main__":
 
     #transform count matrix 
     if tfidf: 
-        print 'tfidf'
         transformer = TfidfTransformer()
         training_feat = transformer.fit_transform(training_feat)
         test_feat = transformer.fit_transform(test_feat)
     if normalizeMatrix: 
-        print 'normalize'
         training_feat = preprocessing.normalize(training_feat)
         test_feat = preprocessing.normalize(test_feat)
     if feature_selection:
-        print 'feature selection'
         selector = SelectPercentile(f_classif, percentile=10)
         training_feat = selector.fit_transform(training_feat, train_label)
         test_feat = selector.transform(test_feat)
 
-    print 'testing folder: ', cc.folder
-    print 'training folder:', cc.trainingFolder
     clf = LinearSVC()
     clf.fit(training_feat, train_label)
     prediction = clf.predict(test_feat)
