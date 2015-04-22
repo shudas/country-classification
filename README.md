@@ -58,7 +58,8 @@ countryclassifier_svm.py:
 	- Variables at the top of can be used to specify the weighting scheme of the feature vectors used in the classifier
 	  (i.e. tfidf, normalization, feature selection
 	
-	Run this program with the command: 
+	Run this program on CAEN with the command: 
+	module load python 
 	python countryclassifier_svm.py TRAIN/ TEST/ 
 
 	This program will output the overall accuracy of the classifier. 
